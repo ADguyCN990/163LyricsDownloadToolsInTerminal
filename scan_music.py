@@ -206,11 +206,71 @@ def clean_filename(name):
 
     return name
 
+# ===== 文件重命名 =====
+def sanitize_filename(name):
+    """清理文件名中的非法字符"""
+    # Windows 文件名非法字符: < > : " / \ | ? *
+    illegal_chars = r'[<>:"/\\|?*]'
+    name = re.sub(illegal_chars, '_', name)
+    # 去除首尾空格和点
+    name = name.strip().strip('.')
+    # 限制长度（Windows 限制 255 字符）
+    if len(name) > 200:
+        name = name[:200]
+    return name if name else None
+
+def rename_file(file_path, new_title, dry_run=False):
+    """
+    重命名音乐文件
+    file_path: 原始文件路径
+    new_title: 新标题（不含扩展名）
+    dry_run: 试运行模式（不实际执行）
+    返回: (success, new_path, message)
+    """
+    try:
+        path = Path(file_path)
+        if not path.exists():
+            return False, None, "文件不存在"
+
+        # 获取原始扩展名
+        extension = path.suffix.lower()
+        if not extension:
+            extension = '.mp3'  # 默认扩展名
+
+        # 清理新文件名
+        new_name = sanitize_filename(new_title)
+        if not new_name:
+            return False, None, "标题无效"
+
+        new_name = f"{new_name}{extension}"
+        new_path = path.parent / new_name
+
+        # 处理文件名冲突
+        if new_path.exists() and new_path != path:
+            # 如果目标已存在，添加序号
+            counter = 1
+            while new_path.exists():
+                new_name = f"{sanitize_filename(new_title)}_{counter}{extension}"
+                new_path = path.parent / new_name
+                counter += 1
+
+        if dry_run:
+            return True, str(new_path), f"[试运行] 将重命名为: {new_name}"
+
+        # 执行重命名
+        path.rename(new_path)
+        return True, str(new_path), f"已重命名为: {new_name}"
+
+    except Exception as e:
+        return False, None, f"重命名失败: {e}"
+
+
 # ===== 主逻辑 =====
-def process_files(music_dir, output_file, recursive, similarity_threshold=0.6, use_metadata=True):
+def process_files(music_dir, output_file, recursive, similarity_threshold=0.6, use_metadata=True, rename=False):
     """
     处理音乐文件
     use_metadata: 是否使用音频元数据进行验证
+    rename: 是否使用元数据标题重命名文件
     """
     print("=" * 50)
     print("🎵 音乐文件扫描工具")
@@ -218,6 +278,7 @@ def process_files(music_dir, output_file, recursive, similarity_threshold=0.6, u
     print(f"📁 扫描目录: {music_dir}")
     print(f"📂 递归扫描: {'是' if recursive else '否'}")
     print(f"🔍 元数据验证: {'是' if use_metadata else '否'}")
+    print(f"📝 文件重命名: {'是' if rename else '否'}")
     print("=" * 50)
 
     # 扫描文件
@@ -234,6 +295,8 @@ def process_files(music_dir, output_file, recursive, similarity_threshold=0.6, u
     results = []
     skipped = []
     metadata_failed = 0
+    rename_count = 0
+    rename_skipped = 0
 
     for i, (file_path, file_name) in enumerate(music_files, 1):
         # 读取元数据
@@ -342,8 +405,26 @@ def process_files(music_dir, output_file, recursive, similarity_threshold=0.6, u
             else:
                 confidence = "low"
 
+            # 文件重命名
+            current_file_path = file_path
+            if rename:
+                local_title = local_meta.get('title', '')
+                if local_title:
+                    # 使用元数据标题重命名
+                    success, new_path, msg = rename_file(file_path, local_title)
+                    if success:
+                        print(f"   ✏️  {msg}")
+                        current_file_path = new_path
+                        rename_count += 1
+                    else:
+                        print(f"   ⚠️  重命名跳过: {msg}")
+                        rename_skipped += 1
+                else:
+                    print(f"   ⚠️  重命名跳过: 无标题元数据")
+                    rename_skipped += 1
+
             results.append({
-                "file": file_path,
+                "file": current_file_path,
                 "search_name": search_name,
                 "song_id": song_id,
                 "song_name": song_name,
@@ -379,6 +460,13 @@ def process_files(music_dir, output_file, recursive, similarity_threshold=0.6, u
     if metadata_failed > 0:
         print(f"   ⚠️  元数据读取失败: {metadata_failed}")
     print(f"   📁 总计: {len(music_files)}")
+
+    if rename:
+        print("\n" + "=" * 50)
+        print("📝 重命名统计")
+        print("=" * 50)
+        print(f"   ✅ 成功重命名: {rename_count}")
+        print(f"   ⚠️  跳过: {rename_skipped}")
 
     # 保存结果
     if output_file:
@@ -455,11 +543,15 @@ def main():
                         default=True, help="禁用音频元数据验证")
     parser.add_argument("-v", "--verbose", action="store_true",
                         help="显示详细信息")
+    parser.add_argument("--rename", action="store_true",
+                        help="使用元数据标题重命名音乐文件")
+    parser.add_argument("--no-rename", dest="rename", action="store_false",
+                        default=False, help="不重命名文件 (默认)")
 
     args = parser.parse_args()
 
     try:
-        process_files(args.dir, args.output, args.recursive, args.threshold, args.use_metadata)
+        process_files(args.dir, args.output, args.recursive, args.threshold, args.use_metadata, args.rename)
     except ImportError as e:
         print(f"❌ 缺少依赖: {e}")
         print("请安装 mutagen: pip install mutagen")

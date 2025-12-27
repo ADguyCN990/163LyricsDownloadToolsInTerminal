@@ -14,6 +14,7 @@
 | 网易云搜索 | 用文件名+元数据组合搜索网易云音乐 |
 | 相似度计算 | 计算匹配结果的可信度 |
 | 结果输出 | 生成JSON详细报告和ID列表文件 |
+| 文件重命名 | 使用元数据标题自动重命名音乐文件 |
 
 ### lyric_cli.py
 
@@ -26,6 +27,16 @@
 | 双语歌词 | 支持原文和译文合并保存 |
 | LRC格式 | 标准LRC歌词文件输出 |
 | 错误重试 | API限流时自动重试 |
+
+### embed_lyrics.py
+
+| 功能 | 说明 |
+|------|------|
+| 歌词嵌入 | 将LRC歌词写入音乐文件的元数据 |
+| 智能匹配 | 根据标题/艺术家自动匹配歌词文件 |
+| 多格式支持 | 支持MP3、FLAC、M4A等主流音频格式 |
+| 试运行模式 | 预览匹配结果，不实际写入 |
+| 文件名匹配 | 无元数据时使用文件名作为备选匹配 |
 
 ## 安装
 
@@ -59,6 +70,9 @@ python scan_music.py -d ./music --no-recursive -o results.json
 
 # 禁用元数据验证（仅使用文件名）
 python scan_music.py -d ./music --no-metadata -o results.json
+
+# 扫描并使用元数据标题重命名音乐文件
+python scan_music.py -d ./music --rename -o results.json
 ```
 
 **输出文件：**
@@ -93,15 +107,42 @@ python lyric_cli.py -f results.ids.txt -m translated -o ./lyrics
 python lyric_cli.py -f results.ids.txt -o ./lyrics -d 2.0
 ```
 
+### 3. 嵌入歌词到音乐文件
+
+将LRC歌词写入音乐文件的元数据：
+
+```bash
+# 基本用法
+python embed_lyrics.py -m "E:\音乐" -l "E:\音乐\lyrics"
+
+# 试运行模式（预览匹配结果，不实际写入）
+python embed_lyrics.py -m "E:\音乐" -l "E:\音乐\lyrics" -n
+
+# 设置更高匹配阈值
+python embed_lyrics.py -m "E:\音乐" -l "E:\音楽\lyrics" -t 0.8
+
+# 不扫描子目录
+python embed_lyrics.py -m "E:\音楽" -l "E:\音乐\lyrics" --no-recursive
+```
+
 ### 完整工作流
 
 ```bash
-# 1. 扫描音乐目录
-python scan_music.py -d "E:\Music" -o scan_results.json
+# 1. 扫描音乐目录并重命名文件
+python scan_music.py -d "E:\Music" --rename -o scan_results.json
 
 # 2. 下载歌词到指定目录
 python lyric_cli.py -f scan_results.ids.txt -o "E:\Lyrics"
+
+# 3. 将歌词嵌入音乐文件元数据
+python embed_lyrics.py -m "E:\Music" -l "E:\Music\lyrics"
 ```
+
+**重命名功能说明：**
+- 使用元数据中的歌曲标题作为新文件名
+- 保留原始文件扩展名
+- 自动清理非法字符，避免命名冲突
+- 如果没有元数据标题或标题为空，则跳过该文件
 
 ## 命令行参数
 
@@ -114,6 +155,8 @@ python lyric_cli.py -f scan_results.ids.txt -o "E:\Lyrics"
 --no-recursive      不扫描子目录
 -t, --threshold     相似度阈值 0-1 (默认: 0.6)
 --no-metadata       禁用音频元数据验证
+--rename            使用元数据标题重命名音乐文件
+--no-rename         不重命名文件 (默认)
 ```
 
 ### lyric_cli.py
@@ -127,6 +170,17 @@ inputs              歌曲链接或ID（可多个）
                     - translated: 只保存译文
                     - both: 中英双语合并 (默认)
 -d, --delay         请求间隔秒数 (默认: 1.0)
+```
+
+### embed_lyrics.py
+
+```
+-m, --music DIR     音乐目录路径 (必填)
+-l, --lyrics DIR    歌词目录路径 (必填)
+-t, --threshold     匹配阈值 0-1 (默认: 0.6)
+-r, --recursive     递归扫描子目录 (默认: 开启)
+--no-recursive      不扫描子目录
+-n, --dry-run       试运行模式（不实际写入）
 ```
 
 ## 输出示例
