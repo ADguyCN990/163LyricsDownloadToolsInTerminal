@@ -270,24 +270,25 @@ MIT License
 
 ## 附录：元数据检查工具
 
-### check_flac_artist.py
-
-检查 FLAC 文件的 `artist` 和 `albumartist` 是否一致，生成不匹配文件列表。
-
-```bash
-# 检查目录并输出结果
-python check_flac_artist.py "E:/music"
-
-# 输出JSON格式
-python check_flac_artist.py "E:/music" --json
-```
-
-**输出文件：**
-- `mismatched_artist.json` - 不一致文件列表
-
 ### flac_check.py
 
-交互式检查与修复 FLAC 文件的 `artist`/`albumartist` 元数据。
+FLAC 元数据检查与修复工具，支持两种模式：
+
+#### 模式1：快速列出（--list）
+
+类似旧版 `check_flac_artist.py` 功能，快速列出不一致的文件，不记录状态。
+
+```bash
+# 快速列出不一致的文件
+python flac_check.py -d "E:/music" --list
+
+# 列出并保存到 JSON
+python flac_check.py -d "E:/music" --list -o mismatched.json
+```
+
+#### 模式2：交互式检查与修复（默认）
+
+增量模式检查，记忆已处理状态，支持交互式修复。
 
 ```bash
 # 检查目录（增量模式，记忆已处理文件）

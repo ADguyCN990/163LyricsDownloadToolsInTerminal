@@ -1029,5 +1029,12 @@
     "consistent": true,
     "artist": "高嶺のなでしこ",
     "albumartist": "高嶺のなでしこ"
+  },
+  "张震岳\\OK\\01 思念是一种病.flac": {
+    "path": "E:/music\\张震岳\\OK\\01 思念是一种病.flac",
+    "consistent": false,
+    "artist": "张震岳/蔡健雅",
+    "albumartist": "张震岳",
+    "processed": false
   }
 }

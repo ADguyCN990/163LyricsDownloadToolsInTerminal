@@ -221,9 +221,48 @@ def reset_state():
     """重置状态文件"""
     if os.path.exists(STATE_FILE):
         os.remove(STATE_FILE)
-        print("✅ 已重置状态文件")
+        print("已重置状态文件")
     else:
         print("状态文件不存在")
+
+
+def list_mismatched(root_dir):
+    """快速列出不一致的文件（不记录状态）"""
+    print(f"扫描目录: {root_dir}")
+    print("=" * 70)
+
+    mismatched = []
+
+    for root, dirs, files in os.walk(root_dir):
+        for f in files:
+            if f.lower().endswith('.flac'):
+                path = os.path.join(root, f)
+                try:
+                    audio = FLAC(path)
+                    artist = audio.get('artist', [None])[0] or ''
+                    albumartist = audio.get('albumartist', [None])[0] or ''
+
+                    if artist.strip().lower() != albumartist.strip().lower():
+                        rel_path = os.path.relpath(path, root_dir)
+                        mismatched.append({
+                            'file': rel_path,
+                            'artist': artist,
+                            'albumartist': albumartist
+                        })
+                except Exception as e:
+                    print(f"Error reading {path}: {e}", file=sys.stderr)
+
+    if mismatched:
+        print(f"\n找到 {len(mismatched)} 个 artist/albumartist 不一致的文件:\n")
+        for item in mismatched:
+            print(f"文件: {item['file']}")
+            print(f"  artist:       '{item['artist']}'")
+            print(f"  albumartist:  '{item['albumartist']}'")
+            print()
+        return mismatched
+    else:
+        print("没有找到 artist/albumartist 不一致的文件")
+        return []
 
 
 def main():
@@ -233,7 +272,13 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 示例:
-  # 检查目录并显示摘要
+  # 快速列出不一致的文件（类似旧版 check_flac_artist.py）
+  python flac_check.py -d "E:/music" --list
+
+  # 列出并保存到 JSON
+  python flac_check.py -d "E:/music" --list -o mismatched.json
+
+  # 检查目录并显示摘要（增量模式，记忆已处理状态）
   python flac_check.py -d "E:/music"
 
   # 强制重新检查所有文件
@@ -248,6 +293,8 @@ def main():
     )
 
     parser.add_argument("-d", "--dir", help="音乐目录路径 (默认: 当前目录)")
+    parser.add_argument("-o", "--output", help="输出文件路径 (--list 模式)")
+    parser.add_argument("--list", action="store_true", help="快速列出不一致的文件，不记录状态")
     parser.add_argument("--force", action="store_true", help="强制重新检查所有文件")
     parser.add_argument("--fix", action="store_true", help="进入交互式修复模式")
     parser.add_argument("--reset", action="store_true", help="重置状态文件")
@@ -261,18 +308,31 @@ def main():
 
     root_dir = args.dir or os.getcwd()
 
+    # --list 模式：快速列出，不记录状态
+    if args.list:
+        mismatched = list_mismatched(root_dir)
+
+        # 保存到 JSON
+        if args.output and mismatched:
+            output_file = args.output if os.path.isabs(args.output) else os.path.join(os.path.dirname(os.path.abspath(__file__)), args.output)
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(mismatched, f, ensure_ascii=False, indent=2)
+            print(f"结果已保存到: {output_file}")
+        return
+
+    # 默认模式：检查并记录状态
     print("=" * 70)
-    print("🎵 FLAC 元数据检查工具")
+    print("FLAC 元数据检查工具")
     print("=" * 70)
-    print(f"📁 目录: {root_dir}")
-    print(f"🔧 模式: {'强制重新检查' if args.force else '增量检查'}")
+    print(f"目录: {root_dir}")
+    print(f"模式: {'强制重新检查' if args.force else '增量检查'}")
 
     results, state = check_files(root_dir, force=args.force)
 
     if args.json:
         print(json.dumps(results, ensure_ascii=False, indent=2))
     else:
-        print(f"\n📊 检查完成")
+        print(f"\n检查完成")
         print(f"   已检查: {results['checked']}")
         print(f"   一致:   {results['consistent']}")
         print(f"   不一致: {results['mismatched']}")
