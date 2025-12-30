@@ -52,8 +52,8 @@ pip install pycryptodome mutagen
 ## 依赖
 
 - Python 3.8+
-- pycryptodome - AES/RSA加密
-- mutagen - 音频文件元数据读取
+- pycryptodome - AES/RSA加密（lyric_cli.py）
+- mutagen - 音频文件元数据读取（所有元数据相关工具）
 
 ## 使用方法
 
@@ -267,6 +267,86 @@ inputs              歌曲链接或ID（可多个）
 ## License
 
 MIT License
+
+## 附录：元数据检查工具
+
+### check_flac_artist.py
+
+检查 FLAC 文件的 `artist` 和 `albumartist` 是否一致，生成不匹配文件列表。
+
+```bash
+# 检查目录并输出结果
+python check_flac_artist.py "E:/music"
+
+# 输出JSON格式
+python check_flac_artist.py "E:/music" --json
+```
+
+**输出文件：**
+- `mismatched_artist.json` - 不一致文件列表
+
+### flac_check.py
+
+交互式检查与修复 FLAC 文件的 `artist`/`albumartist` 元数据。
+
+```bash
+# 检查目录（增量模式，记忆已处理文件）
+python flac_check.py -d "E:/music"
+
+# 强制重新检查所有文件
+python flac_check.py -d "E:/music" --force
+
+# 进入交互式修复模式
+python flac_check.py -d "E:/music" --fix
+
+# 输出JSON格式
+python flac_check.py -d "E:/music" --json
+
+# 重置状态（重新扫描所有文件）
+python flac_check.py --reset
+```
+
+**交互式修复选项：**
+
+```
+[1/22] yoasobi/THE BOOK 3/アイドル.flac
+  artist:       'Ayase'
+  albumartist:  'YOASOBI'
+
+请选择处理方式:
+  1. artist -> albumartist   (用 artist 覆盖 albumartist)
+  2. albumartist -> artist   (用 albumartist 覆盖 artist)
+  3. 自定义 artist
+  4. 自定义 albumartist
+  5. 自定义两者
+  6. 跳过处理 (不修改文件，下次继续询问)
+  7. 视为一致 (不修改文件，下次不再询问)
+  8. 退出
+```
+
+| 选项 | 作用 | 是否修改文件 | 下次是否再询问 |
+|------|------|-------------|---------------|
+| 1-5 | 修改文件元数据使其一致 | ✅ 修改 | 不再询问 |
+| 6 | 跳过本次处理 | ❌ 不修改 | ✅ 继续询问 |
+| 7 | 确认当前不一致可接受 | ❌ 不修改 | ❌ 不再询问 |
+| 8 | 退出程序 | - | - |
+
+**使用场景：**
+- **选项 1-5**：需要修复 metadata 使 artist 和 albumartist 一致
+- **选项 6**：暂时跳过，下次继续处理
+- **选项 7**：确认当前不一致是正确的（如 feat.），不再询问
+
+**状态文件：** `flac_check_state.json` - 记录已处理状态
+
+### 元数据最佳实践
+
+- `artist` - 歌曲的实际表演者
+- `albumartist` - 专辑归属艺术家
+
+**建议：**
+- 单艺术家专辑：两个字段应保持一致
+- 合辑/Various Artists：albumartist 统一为 "Various Artists"
+- feat. 歌曲：artist 可包含合作艺人，albumartist 为主艺人
 
 ## 感谢
 
