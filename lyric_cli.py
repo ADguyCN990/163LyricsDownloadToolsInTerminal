@@ -180,8 +180,9 @@ class NetEaseMusic:
 
                 lrc = result.get("lrc", {}).get("lyric", "")
                 tlyric = result.get("tlyric", {}).get("lyric", "")
+                yrc = result.get("yrc", {}).get("lyric", "")
 
-                return lrc, tlyric
+                return lrc, tlyric, yrc
 
         except Exception as e:
             raise Exception(f"获取歌词失败: {e}")
@@ -385,10 +386,11 @@ class QQMusic:
         raise Exception("QQ音乐API暂未实现")
 
 # ===== 歌词处理 =====
-def merge_lyrics(lrc, tlyric=None, merge_type="both"):
+def merge_lyrics(lrc, tlyric=None, merge_type="both", word_by_word=False):
     """
     合并歌词
     merge_type: 'original', 'translated', 'both'
+    word_by_word: 是否输出逐字歌词
     """
     lines = lrc.strip().split('\n') if lrc else []
     result = []
@@ -421,12 +423,116 @@ def merge_lyrics(lrc, tlyric=None, merge_type="both"):
 
     return '\n'.join(result)
 
+
+def parse_yrc_lyric(yrc_content):
+    """
+    解析逐字歌词(yrc格式)
+    格式: [00:00.00]<00:00.50>你<00:01.00>好<00:01.50>世界
+    或: [25780,3280](25780,680,0)字(26460,300,0)字...
+
+    返回: {
+        行时间戳: [(字时间戳, 字), ...],
+        ...
+    }
+    """
+    if not yrc_content:
+        return {}
+
+    results = {}
+
+    # 检测格式类型
+    if '<00:' in yrc_content or '<0:' in yrc_content:
+        # 格式1: [mm:ss.xx]<mm:ss.xx>字<mm:ss.xx>字
+        for line in yrc_content.strip().split('\n'):
+            time_match = re.match(r'\[(\d+):(\d+\.?\d*)\]', line)
+            if not time_match:
+                continue
+
+            line_time = int(time_match.group(1)) * 60000 + int(float(time_match.group(2)) * 1000)
+            content = line[time_match.end():]
+
+            word_pattern = r'<(\d+):(\d+\.?\d*)>([^\<\>]*)'
+            words = []
+            for wmatch in re.finditer(word_pattern, content):
+                word_time = int(wmatch.group(1)) * 60000 + int(float(wmatch.group(2)) * 1000)
+                word = wmatch.group(3)
+                if word:
+                    words.append((word_time, word))
+
+            if words:
+                results[line_time] = words
+    else:
+        # 格式2: [行开始,行时长](字开始,字时长,0)字(字开始,字时长,0)字...
+        for line in yrc_content.strip().split('\n'):
+            line = line.strip()
+            if not line:
+                continue
+
+            # 匹配行时间 [25780,3280]
+            line_match = re.match(r'\[(\d+),(\d+)\]', line)
+            if not line_match:
+                continue
+
+            line_time = int(line_match.group(1))
+            content = line[line_match.end():]
+
+            # 匹配字 (字开始,字时长,0)字
+            # 格式: (25780,680,0)字
+            word_pattern = r'\((\d+),(\d+),\d+\)([^\(\)\[\]]*)'
+            words = []
+            for wmatch in re.finditer(word_pattern, content):
+                word_time = int(wmatch.group(1))
+                word = wmatch.group(3)
+                if word:
+                    words.append((word_time, word))
+
+            if words:
+                results[line_time] = words
+
+    return results
+
+
+def convert_to_word_timed_lrc(yrc_content):
+    """
+    将逐字歌词转换为带精确字级时间戳的LRC格式
+    保持一行一行歌词，但每行内每个字都有独立时间戳
+
+    输入格式1: [00:00.00]<00:00.50>你<00:00.80>好
+    输入格式2: [25780,3280](25780,680,0)你(26460,300,0)好
+    输出格式: [00:00.00]<00:00.50>你<00:00.80>好
+    """
+    parsed = parse_yrc_lyric(yrc_content)
+
+    if not parsed:
+        return ""
+
+    lines = []
+    for line_time, words in sorted(parsed.items()):
+        # 按行时间戳排序
+        line_time_str = format_time(line_time)
+
+        # 构建逐字标签（使用不带方括号的时间格式）
+        word_tags = ''.join([f"<{format_time_simple(wtime)}>{word}" for wtime, word in words])
+
+        lines.append(f"{line_time_str}{word_tags}")
+
+    return '\n'.join(lines)
+
+
 def format_time(ms):
-    """毫秒转换为 [mm:ss.xx] 格式"""
+    """毫秒转换为 [mm:ss.xx] 格式（用于行时间戳）"""
     total_seconds = ms / 1000
     minutes = int(total_seconds // 60)
     seconds = total_seconds % 60
     return f"[{minutes:02d}:{seconds:05.2f}]"
+
+
+def format_time_simple(ms):
+    """毫秒转换为 mm:ss.xx 格式（用于字时间戳，不带方括号）"""
+    total_seconds = ms / 1000
+    minutes = int(total_seconds // 60)
+    seconds = total_seconds % 60
+    return f"{minutes:02d}:{seconds:05.2f}"
 
 def parse_lrc_time(line):
     """解析LRC时间戳"""
@@ -478,8 +584,10 @@ def save_lrc(filepath, content, song_info=None):
     return True
 
 # ===== 主逻辑 =====
-def download_single(input_str, output_dir, merge_type="both"):
-    """下载单个歌曲的歌词"""
+def download_single(input_str, output_dir, merge_type="both", word_by_word=False):
+    """下载单个歌曲的歌词
+    word_by_word: 是否使用逐字歌词格式
+    """
     input_type, param = parse_input(input_str)
 
     print(f"  📀 处理: {input_str}")
@@ -493,13 +601,23 @@ def download_single(input_str, output_dir, merge_type="both"):
     try:
         if input_type == 'netease_song':
             song_id = int(param)
-            lrc, tlyric = NetEaseMusic.get_song_lyric(song_id)
+            lrc, tlyric, yrc = NetEaseMusic.get_song_lyric(song_id)
             if not lrc:
                 print(f"     ⚠️  无歌词")
                 return False
 
             song_info = NetEaseMusic.get_song_detail(song_id)
-            merged = merge_lyrics(lrc, tlyric, merge_type)
+
+            # 如果启用了逐字歌词模式
+            if word_by_word and yrc:
+                content = convert_to_word_timed_lrc(yrc)
+                if not content:
+                    print(f"     ⚠️  逐字歌词解析失败，使用普通歌词")
+                    content = merge_lyrics(lrc, tlyric, merge_type)
+                else:
+                    print(f"     🎤 已转换为逐字时间戳格式")
+            else:
+                content = merge_lyrics(lrc, tlyric, merge_type)
 
             # 生成文件名：<歌曲名> - <艺术家名>.lrc
             name = song_info.get('name', '').strip()
@@ -511,7 +629,7 @@ def download_single(input_str, output_dir, merge_type="both"):
             filename = re.sub(r'[<>:"/\\|?*]', '_', filename)
             filepath = Path(output_dir) / filename
 
-            save_lrc(str(filepath), merged, song_info)
+            save_lrc(str(filepath), content, song_info)
             print(f"     ✅ 已保存: {filepath.name}")
             return True
 
@@ -521,7 +639,7 @@ def download_single(input_str, output_dir, merge_type="both"):
             count = 0
             for song_id in song_ids:
                 try:
-                    download_single(str(song_id), output_dir, merge_type)
+                    download_single(str(song_id), output_dir, merge_type, word_by_word)
                     count += 1
                     time.sleep(0.3)
                 except Exception as e:
@@ -535,7 +653,7 @@ def download_single(input_str, output_dir, merge_type="both"):
             count = 0
             for song_id in song_ids:
                 try:
-                    download_single(str(song_id), output_dir, merge_type)
+                    download_single(str(song_id), output_dir, merge_type, word_by_word)
                     count += 1
                     time.sleep(0.3)
                 except Exception as e:
@@ -564,6 +682,9 @@ def main():
   # 下载单个歌曲
   python lyric_cli.py "https://music.163.com/#/song?id=12345" -o ./lyrics
 
+  # 下载逐字歌词（每个字一行）
+  python lyric_cli.py "https://music.163.com/#/song?id=12345" -o ./lyrics -w
+
   # 批量下载（从文件）
   python lyric_cli.py -f urls.txt -o ./lyrics
 
@@ -585,6 +706,8 @@ def main():
     parser.add_argument("-m", "--merge", choices=["original", "translated", "both"],
                         default="both", help="歌词合并模式 (默认: both)")
     parser.add_argument("-d", "--delay", type=float, default=1.0, help="请求间隔秒数 (默认: 1.0)")
+    parser.add_argument("-w", "--word-by-word", action="store_true",
+                        help="输出带逐字时间戳的歌词（每行内每个字都有独立时间戳）")
 
     args = parser.parse_args()
 
@@ -617,6 +740,7 @@ def main():
     print("=" * 50)
     print(f"📁 输出目录: {output_dir}")
     print(f"📝 合并模式: {args.merge}")
+    print(f"🎤 逐字模式: {'是' if args.word_by_word else '否'}")
     print(f"🔗 共 {len(all_inputs)} 个任务")
     print("=" * 50)
 
@@ -626,7 +750,7 @@ def main():
     for i, input_str in enumerate(all_inputs, 1):
         print(f"\n[{i}/{len(all_inputs)}]", end="")
         try:
-            if download_single(input_str, str(output_dir), args.merge):
+            if download_single(input_str, str(output_dir), args.merge, args.word_by_word):
                 success += 1
             else:
                 failed += 1

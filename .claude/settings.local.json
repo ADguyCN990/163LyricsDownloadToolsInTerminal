@@ -3,7 +3,16 @@
     "allow": [
       "Bash(python3 -c:*)",
       "Bash(pip install:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(schtasks /query:*)",
+      "Bash(powershell:*)",
+      "Bash(cat:*)",
+      "Bash(schtasks /delete:*)",
+      "Bash(git init)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(ls:*)",
+      "WebSearch"
     ]
   }
 }

@@ -1,25 +1,137 @@
 {
-  "timestamp": "2025-12-29 15:41:53",
-  "total_files": 177,
-  "success_count": 176,
-  "skipped_count": 1,
+  "timestamp": "2026-01-10 09:07:50",
+  "total_files": 234,
+  "success_count": 232,
+  "skipped_count": 2,
   "results": [
     {
-      "file": "E:\\music\\节奏医生-6x.flac",
-      "search_name": "节奏医生 6x",
-      "song_id": 167715,
-      "song_name": "医生",
+      "file": "E:\\music\\All The Times (Mandarin Version) (Booth) (2).flac",
+      "search_name": "All The Times (Mandarin Version) (Booth) (2)",
+      "song_id": 2108035381,
+      "song_name": "All The Times (miss my peeps)",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(83%)",
+      "metadata": {
+        "local_artist": "",
+        "local_album": "节奏医生",
+        "local_title": "All The Times (Mandarin Version) (Booth) (2)"
+      }
+    },
+    {
+      "file": "E:\\music\\Boss Fight (No cutscene).flac",
+      "search_name": "Boss Fight (No cutscene)",
+      "song_id": 1417673385,
+      "song_name": "Boss Bitch",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "",
-        "local_album": "",
-        "local_title": ""
+        "local_album": "节奏医生",
+        "local_title": "Boss Fight (No cutscene)"
       }
     },
     {
-      "file": "E:\\music\\哈基米\\Move Your 基米.mp3",
+      "file": "E:\\music\\Dreams Don't Stop.flac",
+      "search_name": "Dreams Don't Stop",
+      "song_id": 2729811826,
+      "song_name": "Dreams Don’t Stop",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(91%)",
+      "metadata": {
+        "local_artist": "",
+        "local_album": "节奏医生",
+        "local_title": "Dreams Don't Stop"
+      }
+    },
+    {
+      "file": "E:\\music\\Lucky Break.flac",
+      "search_name": "Lucky Break",
+      "song_id": 1392600538,
+      "song_name": "【FREE】lucky",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(78%)",
+      "metadata": {
+        "local_artist": "",
+        "local_album": "节奏医生",
+        "local_title": "Lucky Break"
+      }
+    },
+    {
+      "file": "E:\\music\\Miracle Defibrillator (Colesong-Leaves).flac",
+      "search_name": "Miracle Defibrillator (Colesong-Leaves)",
+      "song_id": 3334574391,
+      "song_name": "Miracle",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "",
+        "local_album": "节奏医生",
+        "local_title": "Miracle Defibrillator (Colesong-Leaves)"
+      }
+    },
+    {
+      "file": "E:\\music\\Murmurs.flac",
+      "search_name": "Murmurs",
+      "song_id": 1477438820,
+      "song_name": "爱你3000 (Solo Version)",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名相似(50%)",
+      "metadata": {
+        "local_artist": "",
+        "local_album": "节奏医生",
+        "local_title": "Murmurs"
+      }
+    },
+    {
+      "file": "E:\\music\\One Shift More (Mandarin Version).flac",
+      "search_name": "One Shift More (Mandarin Version)",
+      "song_id": 2756302379,
+      "song_name": "K歌之王 AIR (Night Version)",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(80%)",
+      "metadata": {
+        "local_artist": "",
+        "local_album": "节奏医生",
+        "local_title": "One Shift More (Mandarin Version)"
+      }
+    },
+    {
+      "file": "E:\\music\\Puff Piece.flac",
+      "search_name": "Puff Piece",
+      "song_id": 297803,
+      "song_name": "Honey",
+      "artist": "",
+      "confidence": "low",
+      "verify_reason": "验证通过",
+      "metadata": {
+        "local_artist": "",
+        "local_album": "节奏医生",
+        "local_title": "Puff Piece"
+      }
+    },
+    {
+      "file": "E:\\music\\Wish I Could Care Less.flac",
+      "search_name": "Wish I Could Care Less",
+      "song_id": 2007862063,
+      "song_name": "Wish I Could Careless",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "",
+        "local_album": "节奏医生",
+        "local_title": "Wish I Could Care Less"
+      }
+    },
+    {
+      "file": "E:\\music\\邪恶曼波\\Move Your 基米.mp3",
       "search_name": "Move Your 基米",
       "song_id": 2683403634,
       "song_name": "Move Your 基米（纯净版）",
@@ -33,7 +145,7 @@
       }
     },
     {
-      "file": "E:\\music\\哈基米\\Normal No More(哈基米).mp3",
+      "file": "E:\\music\\邪恶曼波\\Normal No More(哈基米).mp3",
       "search_name": "Normal No More",
       "song_id": 1440570723,
       "song_name": "Normal No More",
@@ -44,34 +156,6 @@
         "local_artist": "",
         "local_album": "",
         "local_title": ""
-      }
-    },
-    {
-      "file": "E:\\music\\哈基米\\往事只能哈基(哈基米).flac",
-      "search_name": "往事只能哈基(哈基米)",
-      "song_id": 3324541601,
-      "song_name": "往事只能哈基",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "哈基米.",
-        "local_album": "彩云曼波(哈基米)",
-        "local_title": "往事只能哈基(哈基米)"
-      }
-    },
-    {
-      "file": "E:\\music\\日本群星\\_Devils Never Cry_.flac",
-      "search_name": "\"Devils Never Cry\"",
-      "song_id": 4982448,
-      "song_name": "\"Devils Never Cry\" (Staff Roll)",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "日本群星",
-        "local_album": "Devil May Cry 3 OST",
-        "local_title": "\"Devils Never Cry\""
       }
     },
     {
@@ -89,15 +173,29 @@
       }
     },
     {
-      "file": "E:\\music\\Capcom Sound Team\\DEVIL MAY CRY 5 Original SoundTrack\\Devil Trigger.flac",
-      "search_name": "Devil Trigger",
-      "song_id": 1353159953,
-      "song_name": "Devil Trigger (Instrumental Edit)",
+      "file": "E:\\music\\Capcom Sound Team\\Devil May Cry 3 Original Soundtrack\\3-18 Capcom Sound Team - Devils Never Cry.flac",
+      "search_name": "Devils Never Cry",
+      "song_id": 34274978,
+      "song_name": "Devils Never Cry",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "Casey Edwards",
+        "local_artist": "Capcom Sound Team",
+        "local_album": "Devil May Cry 3 Original Soundtrack",
+        "local_title": "Devils Never Cry"
+      }
+    },
+    {
+      "file": "E:\\music\\Capcom Sound Team\\DEVIL MAY CRY 5 Original SoundTrack\\Devil Trigger.flac",
+      "search_name": "Devil Trigger",
+      "song_id": 1353163404,
+      "song_name": "Devil Trigger",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "Capcom Sound Team",
         "local_album": "DEVIL MAY CRY 5 Original SoundTrack",
         "local_title": "Devil Trigger"
       }
@@ -105,13 +203,13 @@
     {
       "file": "E:\\music\\Capcom Sound Team\\DEVIL MAY CRY 5 Original SoundTrack\\Silver Bullet.flac",
       "search_name": "Silver Bullet",
-      "song_id": 1353164043,
-      "song_name": "Silver Bullet",
+      "song_id": 2051390360,
+      "song_name": "Silver Bullet Caravans",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "Casey Edwards",
+        "local_artist": "Capcom Sound Team",
         "local_album": "DEVIL MAY CRY 5 Original SoundTrack",
         "local_title": "Silver Bullet"
       }
@@ -125,7 +223,7 @@
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "Cody Matthew Johnson",
+        "local_artist": "Capcom Sound Team",
         "local_album": "DEVIL MAY CRY 5 Original SoundTrack",
         "local_title": "Subhuman"
       }
@@ -133,29 +231,15 @@
     {
       "file": "E:\\music\\Capcom Sound Team\\Devil May Cry 5 Special Edition Vergil's Rebirth Sound Selection\\Bury the Light.flac",
       "search_name": "Bury the Light",
-      "song_id": 2606196666,
-      "song_name": "Bury The Light (From \"Devil May Cry 5 Special Edition\")",
+      "song_id": 1818064296,
+      "song_name": "Bury the Light",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "Casey Edwards",
+        "local_artist": "Capcom Sound Team",
         "local_album": "Devil May Cry 5 Special Edition Vergil's Rebirth Sound Selection",
         "local_title": "Bury the Light"
-      }
-    },
-    {
-      "file": "E:\\music\\Christopher Larkin\\Hollow Knight_ Gods & Nightmares\\The Grimm Troupe.flac",
-      "search_name": "The Grimm Troupe",
-      "song_id": 1803720894,
-      "song_name": "The Grimm Troupe (From \"Hollow Knight: Gods & Nightmares\")",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "Christopher Larkin",
-        "local_album": "Hollow Knight: Gods & Nightmares",
-        "local_title": "The Grimm Troupe"
       }
     },
     {
@@ -173,6 +257,20 @@
       }
     },
     {
+      "file": "E:\\music\\Christopher Larkin\\Hollow Knight_ Gods & Nightmares\\The Grimm Troupe.flac",
+      "search_name": "The Grimm Troupe",
+      "song_id": 1803720894,
+      "song_name": "The Grimm Troupe (From \"Hollow Knight: Gods & Nightmares\")",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "Christopher Larkin",
+        "local_album": "Hollow Knight: Gods & Nightmares",
+        "local_title": "The Grimm Troupe"
+      }
+    },
+    {
       "file": "E:\\music\\F.I.R_\\F.I.R_\\Fly Away.flac",
       "search_name": "Fly Away",
       "song_id": 354585,
@@ -181,51 +279,9 @@
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "F.I.R.",
         "local_title": "Fly Away"
-      }
-    },
-    {
-      "file": "E:\\music\\F.I.R_\\F.I.R_\\Lydia.flac",
-      "search_name": "Lydia",
-      "song_id": 354588,
-      "song_name": "Lydia",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "F.I.R.",
-        "local_album": "F.I.R.",
-        "local_title": "Lydia"
-      }
-    },
-    {
-      "file": "E:\\music\\F.I.R_\\F.I.R_\\流浪者之歌.flac",
-      "search_name": "流浪者之歌",
-      "song_id": 354591,
-      "song_name": "流浪者之歌",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "F.I.R.",
-        "local_album": "F.I.R.",
-        "local_title": "流浪者之歌"
-      }
-    },
-    {
-      "file": "E:\\music\\F.I.R_\\F.I.R_\\光芒.flac",
-      "search_name": "光芒",
-      "song_id": 354595,
-      "song_name": "光芒",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "F.I.R.",
-        "local_album": "F.I.R.",
-        "local_title": "光芒"
       }
     },
     {
@@ -237,51 +293,23 @@
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "F.I.R.",
         "local_title": "Lydia 钢琴演奏版"
       }
     },
     {
-      "file": "E:\\music\\F.I.R_\\F.I.R_\\你的微笑.flac",
-      "search_name": "你的微笑",
-      "song_id": 354601,
-      "song_name": "你的微笑",
+      "file": "E:\\music\\F.I.R_\\F.I.R_\\Lydia.flac",
+      "search_name": "Lydia",
+      "song_id": 354588,
+      "song_name": "Lydia",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "F.I.R.",
-        "local_title": "你的微笑"
-      }
-    },
-    {
-      "file": "E:\\music\\F.I.R_\\F.I.R_\\塔罗牌.flac",
-      "search_name": "塔罗牌",
-      "song_id": 354604,
-      "song_name": "塔罗牌",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "F.I.R.",
-        "local_album": "F.I.R.",
-        "local_title": "塔罗牌"
-      }
-    },
-    {
-      "file": "E:\\music\\F.I.R_\\F.I.R_\\后乐园.flac",
-      "search_name": "后乐园",
-      "song_id": 354606,
-      "song_name": "后乐园",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "F.I.R.",
-        "local_album": "F.I.R.",
-        "local_title": "后乐园"
+        "local_title": "Lydia"
       }
     },
     {
@@ -293,7 +321,7 @@
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "F.I.R.",
         "local_title": "Revolution"
       }
@@ -307,9 +335,233 @@
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "F.I.R.",
         "local_title": "You Make Me Want To Fall In Love"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\F.I.R_\\你的微笑.flac",
+      "search_name": "你的微笑",
+      "song_id": 354601,
+      "song_name": "你的微笑",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "F.I.R.",
+        "local_title": "你的微笑"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\F.I.R_\\光芒.flac",
+      "search_name": "光芒",
+      "song_id": 354595,
+      "song_name": "光芒",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "F.I.R.",
+        "local_title": "光芒"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\F.I.R_\\后乐园.flac",
+      "search_name": "后乐园",
+      "song_id": 354606,
+      "song_name": "后乐园",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "F.I.R.",
+        "local_title": "后乐园"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\F.I.R_\\塔罗牌.flac",
+      "search_name": "塔罗牌",
+      "song_id": 354604,
+      "song_name": "塔罗牌",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "F.I.R.",
+        "local_title": "塔罗牌"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\F.I.R_\\我们的爱.flac",
+      "search_name": "我们的爱",
+      "song_id": 354593,
+      "song_name": "我们的爱",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "飞儿乐团",
+        "local_title": "我们的爱"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\F.I.R_\\流浪者之歌.flac",
+      "search_name": "流浪者之歌",
+      "song_id": 354591,
+      "song_name": "流浪者之歌",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "F.I.R.",
+        "local_title": "流浪者之歌"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\亚特兰提斯\\Say Hello.flac",
+      "search_name": "Say Hello",
+      "song_id": 354238,
+      "song_name": "Say Hello",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "亚特兰提斯",
+        "local_title": "Say Hello"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\亚特兰提斯\\亚特兰提斯.flac",
+      "search_name": "亚特兰提斯",
+      "song_id": 354220,
+      "song_name": "亚特兰提斯",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "亚特兰提斯",
+        "local_title": "亚特兰提斯"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\亚特兰提斯\\唐吉诃德.flac",
+      "search_name": "唐吉诃德",
+      "song_id": 354242,
+      "song_name": "唐吉诃德",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "亚特兰提斯",
+        "local_title": "唐吉诃德"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\亚特兰提斯\\微光.flac",
+      "search_name": "微光",
+      "song_id": 354235,
+      "song_name": "微光",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "亚特兰提斯",
+        "local_title": "微光"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\亚特兰提斯\\我超越.flac",
+      "search_name": "我超越",
+      "song_id": 354229,
+      "song_name": "我超越",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "亚特兰提斯",
+        "local_title": "我超越"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\亚特兰提斯\\泪光闪烁.flac",
+      "search_name": "泪光闪烁",
+      "song_id": 354223,
+      "song_name": "泪光闪烁",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "亚特兰提斯",
+        "local_title": "泪光闪烁"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\亚特兰提斯\\爱有路可退.flac",
+      "search_name": "爱有路可退",
+      "song_id": 354232,
+      "song_name": "爱有路可退",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "亚特兰提斯",
+        "local_title": "爱有路可退"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\亚特兰提斯\\花非花.flac",
+      "search_name": "花非花",
+      "song_id": 354226,
+      "song_name": "花非花",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "亚特兰提斯",
+        "local_title": "花非花"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\亚特兰提斯\\螺丝钉.flac",
+      "search_name": "螺丝钉",
+      "song_id": 354249,
+      "song_name": "螺丝钉",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "亚特兰提斯",
+        "local_title": "螺丝钉"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\亚特兰提斯\\让爱重生.flac",
+      "search_name": "让爱重生",
+      "song_id": 354246,
+      "song_name": "让爱重生",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "亚特兰提斯",
+        "local_title": "让爱重生"
       }
     },
     {
@@ -321,51 +573,23 @@
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "我要飞-寻梦之途全纪录",
         "local_title": "我要飞"
       }
     },
     {
-      "file": "E:\\music\\F.I.R_\\无限\\无限.flac",
-      "search_name": "无限",
-      "song_id": 354495,
-      "song_name": "无限",
+      "file": "E:\\music\\F.I.R_\\无限\\I Can't Go On.flac",
+      "search_name": "I Can't Go On",
+      "song_id": 354540,
+      "song_name": "I Can't Go On",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "飞儿乐团",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "无限",
-        "local_title": "无限"
-      }
-    },
-    {
-      "file": "E:\\music\\F.I.R_\\无限\\无限_1.flac",
-      "search_name": "无限",
-      "song_id": 354495,
-      "song_name": "无限",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "飞儿乐团",
-        "local_album": "无限",
-        "local_title": "无限"
-      }
-    },
-    {
-      "file": "E:\\music\\F.I.R_\\无限\\千年之恋.flac",
-      "search_name": "千年之恋",
-      "song_id": 354500,
-      "song_name": "千年之恋",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "无限",
-        "local_title": "千年之恋"
+        "local_title": "I Can't Go On"
       }
     },
     {
@@ -377,79 +601,9 @@
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "飞儿乐团",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "无限",
         "local_title": "Love*3"
-      }
-    },
-    {
-      "file": "E:\\music\\F.I.R_\\无限\\Love_3_1.flac",
-      "search_name": "Love*3",
-      "song_id": 354505,
-      "song_name": "Love*3",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "飞儿乐团",
-        "local_album": "无限",
-        "local_title": "Love*3"
-      }
-    },
-    {
-      "file": "E:\\music\\F.I.R_\\无限\\应许之地.flac",
-      "search_name": "应许之地",
-      "song_id": 354515,
-      "song_name": "应许之地",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "飞儿乐团",
-        "local_album": "无限",
-        "local_title": "应许之地"
-      }
-    },
-    {
-      "file": "E:\\music\\F.I.R_\\无限\\应许之地_1.flac",
-      "search_name": "应许之地",
-      "song_id": 354515,
-      "song_name": "应许之地",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "飞儿乐团",
-        "local_album": "无限",
-        "local_title": "应许之地"
-      }
-    },
-    {
-      "file": "E:\\music\\F.I.R_\\无限\\把爱放开.flac",
-      "search_name": "把爱放开",
-      "song_id": 354519,
-      "song_name": "把爱放开",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "飞儿乐团",
-        "local_album": "无限",
-        "local_title": "把爱放开"
-      }
-    },
-    {
-      "file": "E:\\music\\F.I.R_\\无限\\把爱放开_1.flac",
-      "search_name": "把爱放开",
-      "song_id": 354519,
-      "song_name": "把爱放开",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "飞儿乐团",
-        "local_album": "无限",
-        "local_title": "把爱放开"
       }
     },
     {
@@ -461,21 +615,7 @@
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "飞儿乐团",
-        "local_album": "无限",
-        "local_title": "Neverland"
-      }
-    },
-    {
-      "file": "E:\\music\\F.I.R_\\无限\\Neverland_1.flac",
-      "search_name": "Neverland",
-      "song_id": 354523,
-      "song_name": "Neverland",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "飞儿乐团",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "无限",
         "local_title": "Neverland"
       }
@@ -489,23 +629,65 @@
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "飞儿乐团",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "无限",
         "local_title": "刺鸟"
       }
     },
     {
-      "file": "E:\\music\\F.I.R_\\无限\\刺鸟_1.flac",
-      "search_name": "刺鸟",
-      "song_id": 354529,
-      "song_name": "刺鸟",
+      "file": "E:\\music\\F.I.R_\\无限\\千年之恋.flac",
+      "search_name": "千年之恋",
+      "song_id": 354500,
+      "song_name": "千年之恋",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "飞儿乐团",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "无限",
-        "local_title": "刺鸟"
+        "local_title": "千年之恋"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\无限\\应许之地.flac",
+      "search_name": "应许之地",
+      "song_id": 354515,
+      "song_name": "应许之地",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "无限",
+        "local_title": "应许之地"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\无限\\把爱放开.flac",
+      "search_name": "把爱放开",
+      "song_id": 354519,
+      "song_name": "把爱放开",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "无限",
+        "local_title": "把爱放开"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\无限\\无限.flac",
+      "search_name": "无限",
+      "song_id": 354495,
+      "song_name": "无限",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "无限",
+        "local_title": "无限"
       }
     },
     {
@@ -517,121 +699,191 @@
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "飞儿乐团",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "无限",
         "local_title": "死心的理由"
       }
     },
     {
-      "file": "E:\\music\\F.I.R_\\无限\\死心的理由_1.flac",
-      "search_name": "死心的理由",
-      "song_id": 354535,
-      "song_name": "死心的理由",
+      "file": "E:\\music\\F.I.R_\\无限\\爱的力量.flac",
+      "search_name": "爱的力量",
+      "song_id": 354532,
+      "song_name": "爱的力量",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "飞儿乐团",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "无限",
-        "local_title": "死心的理由"
+        "local_title": "爱的力量"
       }
     },
     {
-      "file": "E:\\music\\F.I.R_\\无限\\I Can't Go On.flac",
-      "search_name": "I Can't Go On",
-      "song_id": 354540,
-      "song_name": "I Can't Go On",
+      "file": "E:\\music\\F.I.R_\\爱‧歌姬\\Blue Doors Ahead.flac",
+      "search_name": "Blue Doors Ahead",
+      "song_id": 354360,
+      "song_name": "Blue Doors Ahead",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "飞儿乐团",
-        "local_album": "无限",
-        "local_title": "I Can't Go On"
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "爱‧歌姬",
+        "local_title": "Blue Doors Ahead"
       }
     },
     {
-      "file": "E:\\music\\F.I.R_\\无限\\I Can't Go On_1.flac",
-      "search_name": "I Can't Go On",
-      "song_id": 354540,
-      "song_name": "I Can't Go On",
+      "file": "E:\\music\\F.I.R_\\爱‧歌姬\\Change.flac",
+      "search_name": "Change",
+      "song_id": 1477386754,
+      "song_name": "I Can't Handle Change",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "飞儿乐团",
-        "local_album": "无限",
-        "local_title": "I Can't Go On"
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "爱‧歌姬",
+        "local_title": "Change"
       }
     },
     {
-      "file": "E:\\music\\F.I.R_\\飞行部落\\Get High.flac",
-      "search_name": "Get High",
-      "song_id": 354387,
-      "song_name": "Get High",
+      "file": "E:\\music\\F.I.R_\\爱‧歌姬\\Forever Green.flac",
+      "search_name": "Forever Green",
+      "song_id": 354356,
+      "song_name": "Forever Green",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "飞行部落",
-        "local_title": "Get High"
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "爱‧歌姬",
+        "local_title": "Forever Green"
       }
     },
     {
-      "file": "E:\\music\\F.I.R_\\飞行部落\\雨樱花.flac",
-      "search_name": "雨樱花",
-      "song_id": 354390,
-      "song_name": "雨樱花",
+      "file": "E:\\music\\F.I.R_\\爱‧歌姬\\三个心愿.flac",
+      "search_name": "三个心愿",
+      "song_id": 354341,
+      "song_name": "三个心愿",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "飞行部落",
-        "local_title": "雨樱花"
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "爱‧歌姬",
+        "local_title": "三个心愿"
       }
     },
     {
-      "file": "E:\\music\\F.I.R_\\飞行部落\\天天夜夜.flac",
-      "search_name": "天天夜夜",
-      "song_id": 354393,
-      "song_name": "天天夜夜",
+      "file": "E:\\music\\F.I.R_\\爱‧歌姬\\彩色拼图.flac",
+      "search_name": "彩色拼图",
+      "song_id": 354368,
+      "song_name": "彩色拼图",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "飞行部落",
-        "local_title": "天天夜夜"
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "爱‧歌姬",
+        "local_title": "彩色拼图"
       }
     },
     {
-      "file": "E:\\music\\F.I.R_\\飞行部落\\飞行部落.flac",
-      "search_name": "飞行部落",
-      "song_id": 354396,
-      "song_name": "飞行部落",
+      "file": "E:\\music\\F.I.R_\\爱‧歌姬\\月牙湾.flac",
+      "search_name": "月牙湾",
+      "song_id": 354352,
+      "song_name": "月牙湾",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "飞行部落",
-        "local_title": "飞行部落"
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "爱‧歌姬",
+        "local_title": "月牙湾"
       }
     },
     {
-      "file": "E:\\music\\F.I.R_\\飞行部落\\北极圈.flac",
-      "search_name": "北极圈",
-      "song_id": 354399,
-      "song_name": "北极圈",
+      "file": "E:\\music\\F.I.R_\\爱‧歌姬\\爱过.flac",
+      "search_name": "爱过",
+      "song_id": 354364,
+      "song_name": "爱过",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "飞儿乐团",
-        "local_album": "飞行部落",
-        "local_title": "北极圈"
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "爱‧歌姬",
+        "local_title": "爱过"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\爱‧歌姬\\真爱地图.flac",
+      "search_name": "真爱地图",
+      "song_id": 354349,
+      "song_name": "真爱地图",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "爱‧歌姬",
+        "local_title": "真爱地图"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\爱‧歌姬\\第十行星.flac",
+      "search_name": "第十行星",
+      "song_id": 354333,
+      "song_name": "第十行星",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "爱‧歌姬",
+        "local_title": "第十行星"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\爱‧歌姬\\荼靡时代.flac",
+      "search_name": "荼靡时代",
+      "song_id": 354374,
+      "song_name": "荼靡时代",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "爱‧歌姬",
+        "local_title": "荼靡时代"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\爱‧歌姬\\需要你的爱.flac",
+      "search_name": "需要你的爱",
+      "song_id": 354337,
+      "song_name": "需要你的爱",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "爱‧歌姬",
+        "local_title": "需要你的爱"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\让我们一起微笑吧 !\\向日葵盛开的夏天.flac",
+      "search_name": "向日葵盛开的夏天",
+      "song_id": 354284,
+      "song_name": "向日葵盛开的夏天",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "让我们一起微笑吧 !",
+        "local_title": "向日葵盛开的夏天"
       }
     },
     {
@@ -643,23 +895,23 @@
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "飞儿乐团",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "飞行部落",
         "local_title": "1234567"
       }
     },
     {
-      "file": "E:\\music\\F.I.R_\\飞行部落\\眷恋.flac",
-      "search_name": "眷恋",
-      "song_id": 354409,
-      "song_name": "眷恋",
+      "file": "E:\\music\\F.I.R_\\飞行部落\\Get High.flac",
+      "search_name": "Get High",
+      "song_id": 354387,
+      "song_name": "Get High",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "飞儿乐团",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "飞行部落",
-        "local_title": "眷恋"
+        "local_title": "Get High"
       }
     },
     {
@@ -671,9 +923,51 @@
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "飞行部落",
         "local_title": "I Don't Care"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\飞行部落\\你很爱他.flac",
+      "search_name": "你很爱他",
+      "song_id": 354402,
+      "song_name": "你很爱他",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "飞行部落",
+        "local_title": "你很爱他"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\飞行部落\\北极圈.flac",
+      "search_name": "北极圈",
+      "song_id": 354399,
+      "song_name": "北极圈",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "飞行部落",
+        "local_title": "北极圈"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\飞行部落\\天天夜夜.flac",
+      "search_name": "天天夜夜",
+      "song_id": 354393,
+      "song_name": "天天夜夜",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "飞行部落",
+        "local_title": "天天夜夜"
       }
     },
     {
@@ -685,9 +979,51 @@
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
+        "local_artist": "F.I.R. 飞儿乐团",
         "local_album": "飞行部落",
         "local_title": "我最爱的人"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\飞行部落\\眷恋.flac",
+      "search_name": "眷恋",
+      "song_id": 354409,
+      "song_name": "眷恋",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "飞行部落",
+        "local_title": "眷恋"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\飞行部落\\雨樱花.flac",
+      "search_name": "雨樱花",
+      "song_id": 354390,
+      "song_name": "雨樱花",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "飞行部落",
+        "local_title": "雨樱花"
+      }
+    },
+    {
+      "file": "E:\\music\\F.I.R_\\飞行部落\\飞行部落.flac",
+      "search_name": "飞行部落",
+      "song_id": 354396,
+      "song_name": "飞行部落",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "F.I.R. 飞儿乐团",
+        "local_album": "飞行部落",
+        "local_title": "飞行部落"
       }
     },
     {
@@ -719,34 +1055,6 @@
       }
     },
     {
-      "file": "E:\\music\\yoasobi\\THE BOOK\\アンコール.flac",
-      "search_name": "アンコール",
-      "song_id": 1500151579,
-      "song_name": "アンコール",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "YOASOBI",
-        "local_album": "THE BOOK",
-        "local_title": "アンコール"
-      }
-    },
-    {
-      "file": "E:\\music\\yoasobi\\THE BOOK\\ハルジオン.flac",
-      "search_name": "ハルジオン",
-      "song_id": 1500151580,
-      "song_name": "ハルジオン",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "YOASOBI",
-        "local_album": "THE BOOK",
-        "local_title": "ハルジオン"
-      }
-    },
-    {
       "file": "E:\\music\\yoasobi\\THE BOOK\\あの夢をなぞって.flac",
       "search_name": "あの夢をなぞって",
       "song_id": 1500152659,
@@ -775,17 +1083,17 @@
       }
     },
     {
-      "file": "E:\\music\\yoasobi\\THE BOOK\\群青.flac",
-      "search_name": "群青",
-      "song_id": 1500151581,
-      "song_name": "群青",
+      "file": "E:\\music\\yoasobi\\THE BOOK\\アンコール.flac",
+      "search_name": "アンコール",
+      "song_id": 1500151579,
+      "song_name": "アンコール",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "YOASOBI",
         "local_album": "THE BOOK",
-        "local_title": "群青"
+        "local_title": "アンコール"
       }
     },
     {
@@ -803,6 +1111,20 @@
       }
     },
     {
+      "file": "E:\\music\\yoasobi\\THE BOOK\\ハルジオン.flac",
+      "search_name": "ハルジオン",
+      "song_id": 1500151580,
+      "song_name": "ハルジオン",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "YOASOBI",
+        "local_album": "THE BOOK",
+        "local_title": "ハルジオン"
+      }
+    },
+    {
       "file": "E:\\music\\yoasobi\\THE BOOK\\夜に駆ける.flac",
       "search_name": "夜に駆ける",
       "song_id": 1500151583,
@@ -814,6 +1136,244 @@
         "local_artist": "YOASOBI",
         "local_album": "THE BOOK",
         "local_title": "夜に駆ける"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK\\群青.flac",
+      "search_name": "群青",
+      "song_id": 1500151581,
+      "song_name": "群青",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "YOASOBI",
+        "local_album": "THE BOOK",
+        "local_title": "群青"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 2\\もう少しだけ.flac",
+      "search_name": "もう少しだけ",
+      "song_id": 1893590232,
+      "song_name": "もう少しだけ",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "YOASOBI",
+        "local_album": "THE BOOK 2",
+        "local_title": "もう少しだけ"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 2\\もしも命が描けたら.flac",
+      "search_name": "もしも命が描けたら",
+      "song_id": 1893592988,
+      "song_name": "もしも命が描けたら",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "YOASOBI",
+        "local_album": "THE BOOK 2",
+        "local_title": "もしも命が描けたら"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 2\\ツバメ(feat. ミドリーズ).flac",
+      "search_name": "ツバメ(feat. ミドリーズ)",
+      "song_id": 1885359359,
+      "song_name": "ツバメ (feat. ミドリーズ)",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "YOASOBI",
+        "local_album": "THE BOOK 2",
+        "local_title": "ツバメ(feat. ミドリーズ)"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 2\\ラブレター.flac",
+      "search_name": "ラブレター",
+      "song_id": 1893590234,
+      "song_name": "ラブレター",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "YOASOBI",
+        "local_album": "THE BOOK 2",
+        "local_title": "ラブレター"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 2\\三原色.flac",
+      "search_name": "三原色",
+      "song_id": 1893590231,
+      "song_name": "三原色",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "YOASOBI",
+        "local_album": "THE BOOK 2",
+        "local_title": "三原色"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 2\\優しい彗星.flac",
+      "search_name": "優しい彗星",
+      "song_id": 1893592987,
+      "song_name": "優しい彗星",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "YOASOBI",
+        "local_album": "THE BOOK 2",
+        "local_title": "優しい彗星"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 2\\大正浪漫.flac",
+      "search_name": "大正浪漫",
+      "song_id": 1893592986,
+      "song_name": "大正浪漫",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "YOASOBI",
+        "local_album": "THE BOOK 2",
+        "local_title": "大正浪漫"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 2\\怪物.flac",
+      "search_name": "怪物",
+      "song_id": 1893590233,
+      "song_name": "怪物",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "YOASOBI",
+        "local_album": "THE BOOK 2",
+        "local_title": "怪物"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 3\\アイドル.flac",
+      "search_name": "アイドル",
+      "song_id": 2083870325,
+      "song_name": "アイドル",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "Ayase",
+        "local_album": "THE BOOK 3",
+        "local_title": "アイドル"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 3\\アドベンチャー.flac",
+      "search_name": "アドベンチャー",
+      "song_id": 2083872226,
+      "song_name": "アドベンチャー",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "Ayase",
+        "local_album": "THE BOOK 3",
+        "local_title": "アドベンチャー"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 3\\セブンティーン.flac",
+      "search_name": "セブンティーン",
+      "song_id": 2083872225,
+      "song_name": "セブンティーン",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "Ayase",
+        "local_album": "THE BOOK 3",
+        "local_title": "セブンティーン"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 3\\ミスター.flac",
+      "search_name": "ミスター",
+      "song_id": 2083870324,
+      "song_name": "ミスター",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "Ayase",
+        "local_album": "THE BOOK 3",
+        "local_title": "ミスター"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 3\\勇者.flac",
+      "search_name": "勇者",
+      "song_id": 2083872221,
+      "song_name": "勇者",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "Ayase",
+        "local_album": "THE BOOK 3",
+        "local_title": "勇者"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 3\\好きだ.flac",
+      "search_name": "好きだ",
+      "song_id": 2083872227,
+      "song_name": "好きだ",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "Ayase",
+        "local_album": "THE BOOK 3",
+        "local_title": "好きだ"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 3\\海のまにまに.flac",
+      "search_name": "海のまにまに",
+      "song_id": 2083870323,
+      "song_name": "海のまにまに",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "Ayase",
+        "local_album": "THE BOOK 3",
+        "local_title": "海のまにまに"
+      }
+    },
+    {
+      "file": "E:\\music\\yoasobi\\THE BOOK 3\\祝福.flac",
+      "search_name": "祝福",
+      "song_id": 2083872223,
+      "song_name": "祝福",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "Ayase",
+        "local_album": "THE BOOK 3",
+        "local_title": "祝福"
       }
     },
     {
@@ -859,31 +1419,17 @@
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\胸の煙.flac",
-      "search_name": "胸の煙",
-      "song_id": 1819308141,
-      "song_name": "胸の煙",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\MILABO.flac",
+      "search_name": "MILABO",
+      "song_id": 1819306498,
+      "song_name": "MILABO",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
         "local_album": "ぐされ",
-        "local_title": "胸の煙"
-      }
-    },
-    {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\正しくなれない.flac",
-      "search_name": "正しくなれない",
-      "song_id": 1819306492,
-      "song_name": "正しくなれない",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "ぐされ",
-        "local_title": "正しくなれない"
+        "local_title": "MILABO"
       }
     },
     {
@@ -901,20 +1447,6 @@
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\勘ぐれい.flac",
-      "search_name": "勘ぐれい",
-      "song_id": 1819306495,
-      "song_name": "勘ぐれい",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "ぐされ",
-        "local_title": "勘ぐれい"
-      }
-    },
-    {
       "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\はゔぁ.flac",
       "search_name": "はゔぁ",
       "song_id": 1819306496,
@@ -926,48 +1458,6 @@
         "local_artist": "ずっと真夜中でいいのに。",
         "local_album": "ぐされ",
         "local_title": "はゔぁ"
-      }
-    },
-    {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\機械油.flac",
-      "search_name": "機械油",
-      "song_id": 1819306497,
-      "song_name": "機械油",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "ぐされ",
-        "local_title": "機械油"
-      }
-    },
-    {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\暗く黒く.flac",
-      "search_name": "暗く黒く",
-      "song_id": 1819308142,
-      "song_name": "暗く黒く",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "ぐされ",
-        "local_title": "暗く黒く"
-      }
-    },
-    {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\MILABO.flac",
-      "search_name": "MILABO",
-      "song_id": 1819306498,
-      "song_name": "MILABO",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "ぐされ",
-        "local_title": "MILABO"
       }
     },
     {
@@ -985,20 +1475,6 @@
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\繰り返す収穫.flac",
-      "search_name": "繰り返す収穫",
-      "song_id": 1819306499,
-      "song_name": "繰り返す収穫",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "ぐされ",
-        "local_title": "繰り返す収穫"
-      }
-    },
-    {
       "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\低血ボルト.flac",
       "search_name": "低血ボルト",
       "song_id": 1819308144,
@@ -1010,6 +1486,20 @@
         "local_artist": "ずっと真夜中でいいのに。",
         "local_album": "ぐされ",
         "local_title": "低血ボルト"
+      }
+    },
+    {
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\勘ぐれい.flac",
+      "search_name": "勘ぐれい",
+      "song_id": 1819306495,
+      "song_name": "勘ぐれい",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "ずっと真夜中でいいのに。",
+        "local_album": "ぐされ",
+        "local_title": "勘ぐれい"
       }
     },
     {
@@ -1027,73 +1517,87 @@
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\花一匁.flac",
-      "search_name": "花一匁",
-      "song_id": 2053440983,
-      "song_name": "花一匁",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\暗く黒く.flac",
+      "search_name": "暗く黒く",
+      "song_id": 1819308142,
+      "song_name": "暗く黒く",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "沈香学",
-        "local_title": "花一匁"
+        "local_album": "ぐされ",
+        "local_title": "暗く黒く"
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\残機.flac",
-      "search_name": "残機",
-      "song_id": 2053438555,
-      "song_name": "残機",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\機械油.flac",
+      "search_name": "機械油",
+      "song_id": 1819306497,
+      "song_name": "機械油",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "沈香学",
-        "local_title": "残機"
+        "local_album": "ぐされ",
+        "local_title": "機械油"
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\猫リセット.flac",
-      "search_name": "猫リセット",
-      "song_id": 2053438556,
-      "song_name": "猫リセット",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\正しくなれない.flac",
+      "search_name": "正しくなれない",
+      "song_id": 1819306492,
+      "song_name": "正しくなれない",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "沈香学",
-        "local_title": "猫リセット"
+        "local_album": "ぐされ",
+        "local_title": "正しくなれない"
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\綺羅キラー.flac",
-      "search_name": "綺羅キラー",
-      "song_id": 2053438557,
-      "song_name": "綺羅キラー (feat. Mori Calliope)",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "ずっと真夜中でいいのに。 Feat. Mori Calliope",
-        "local_album": "沈香学",
-        "local_title": "綺羅キラー"
-      }
-    },
-    {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\馴れ合いサーブ.flac",
-      "search_name": "馴れ合いサーブ",
-      "song_id": 2053438558,
-      "song_name": "馴れ合いサーブ",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\繰り返す収穫.flac",
+      "search_name": "繰り返す収穫",
+      "song_id": 1819306499,
+      "song_name": "繰り返す収穫",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "沈香学",
-        "local_title": "馴れ合いサーブ"
+        "local_album": "ぐされ",
+        "local_title": "繰り返す収穫"
+      }
+    },
+    {
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\胸の煙.flac",
+      "search_name": "胸の煙",
+      "song_id": 1819308141,
+      "song_name": "胸の煙",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "ずっと真夜中でいいのに。",
+        "local_album": "ぐされ",
+        "local_title": "胸の煙"
+      }
+    },
+    {
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\ぐされ\\過眠.flac",
+      "search_name": "過眠",
+      "song_id": 1814284112,
+      "song_name": "過眠",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "ずっと真夜中でいいのに。",
+        "local_album": "過眠",
+        "local_title": "過眠"
       }
     },
     {
@@ -1111,48 +1615,6 @@
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\夏枯れ.flac",
-      "search_name": "夏枯れ",
-      "song_id": 2053438559,
-      "song_name": "夏枯れ",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "沈香学",
-        "local_title": "夏枯れ"
-      }
-    },
-    {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\袖のキルト.flac",
-      "search_name": "袖のキルト",
-      "song_id": 2053440985,
-      "song_name": "袖のキルト",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "沈香学",
-        "local_title": "袖のキルト"
-      }
-    },
-    {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\不法侵入.flac",
-      "search_name": "不法侵入",
-      "song_id": 2053440986,
-      "song_name": "不法侵入",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "沈香学",
-        "local_title": "不法侵入"
-      }
-    },
-    {
       "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\ばかじゃないのに.flac",
       "search_name": "ばかじゃないのに",
       "song_id": 2053440987,
@@ -1164,20 +1626,6 @@
         "local_artist": "ずっと真夜中でいいのに。",
         "local_album": "沈香学",
         "local_title": "ばかじゃないのに"
-      }
-    },
-    {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\消えてしまいそうです.flac",
-      "search_name": "消えてしまいそうです",
-      "song_id": 2053438560,
-      "song_name": "消えてしまいそうです",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "沈香学",
-        "local_title": "消えてしまいそうです"
       }
     },
     {
@@ -1209,73 +1657,129 @@
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\脳裏上のクラッカー.flac",
-      "search_name": "脳裏上のクラッカー",
-      "song_id": 1399788799,
-      "song_name": "脳裏上のクラッカー",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\不法侵入.flac",
+      "search_name": "不法侵入",
+      "song_id": 2053440986,
+      "song_name": "不法侵入",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "潜潜話",
-        "local_title": "脳裏上のクラッカー"
+        "local_album": "沈香学",
+        "local_title": "不法侵入"
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\勘冴えて悔しいわ.flac",
-      "search_name": "勘冴えて悔しいわ",
-      "song_id": 1399789325,
-      "song_name": "勘冴えて悔しいわ",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\夏枯れ.flac",
+      "search_name": "夏枯れ",
+      "song_id": 2053438559,
+      "song_name": "夏枯れ",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "潜潜話",
-        "local_title": "勘冴えて悔しいわ"
+        "local_album": "沈香学",
+        "local_title": "夏枯れ"
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\居眠り遠征隊.flac",
-      "search_name": "居眠り遠征隊",
-      "song_id": 1399789326,
-      "song_name": "居眠り遠征隊",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\残機.flac",
+      "search_name": "残機",
+      "song_id": 2053438555,
+      "song_name": "残機",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "潜潜話",
-        "local_title": "居眠り遠征隊"
+        "local_album": "沈香学",
+        "local_title": "残機"
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\ハゼ馳せる果てるまで.flac",
-      "search_name": "ハゼ馳せる果てるまで",
-      "song_id": 1397619674,
-      "song_name": "ハゼ馳せる果てるまで",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\消えてしまいそうです.flac",
+      "search_name": "消えてしまいそうです",
+      "song_id": 2053438560,
+      "song_name": "消えてしまいそうです",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "潜潜話",
-        "local_title": "ハゼ馳せる果てるまで"
+        "local_album": "沈香学",
+        "local_title": "消えてしまいそうです"
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\蹴っ飛ばした毛布.flac",
-      "search_name": "蹴っ飛ばした毛布",
-      "song_id": 1399789327,
-      "song_name": "蹴っ飛ばした毛布",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\猫リセット.flac",
+      "search_name": "猫リセット",
+      "song_id": 2053438556,
+      "song_name": "猫リセット",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "潜潜話",
-        "local_title": "蹴っ飛ばした毛布"
+        "local_album": "沈香学",
+        "local_title": "猫リセット"
+      }
+    },
+    {
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\綺羅キラー.flac",
+      "search_name": "綺羅キラー",
+      "song_id": 2053438557,
+      "song_name": "綺羅キラー (feat. Mori Calliope)",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "ずっと真夜中でいいのに。 Feat. Mori Calliope",
+        "local_album": "沈香学",
+        "local_title": "綺羅キラー"
+      }
+    },
+    {
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\花一匁.flac",
+      "search_name": "花一匁",
+      "song_id": 2053440983,
+      "song_name": "花一匁",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "ずっと真夜中でいいのに。",
+        "local_album": "沈香学",
+        "local_title": "花一匁"
+      }
+    },
+    {
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\袖のキルト.flac",
+      "search_name": "袖のキルト",
+      "song_id": 2053440985,
+      "song_name": "袖のキルト",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "ずっと真夜中でいいのに。",
+        "local_album": "沈香学",
+        "local_title": "袖のキルト"
+      }
+    },
+    {
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\沈香学\\馴れ合いサーブ.flac",
+      "search_name": "馴れ合いサーブ",
+      "song_id": 2053438558,
+      "song_name": "馴れ合いサーブ",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "ずっと真夜中でいいのに。",
+        "local_album": "沈香学",
+        "local_title": "馴れ合いサーブ"
       }
     },
     {
@@ -1307,17 +1811,31 @@
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\眩しいDNAだけ.flac",
-      "search_name": "眩しいDNAだけ",
-      "song_id": 1399788803,
-      "song_name": "眩しいDNAだけ",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\グラスとラムレーズン.flac",
+      "search_name": "グラスとラムレーズン",
+      "song_id": 1399788804,
+      "song_name": "グラスとラムレーズン",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
         "local_album": "潜潜話",
-        "local_title": "眩しいDNAだけ"
+        "local_title": "グラスとラムレーズン"
+      }
+    },
+    {
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\ハゼ馳せる果てるまで.flac",
+      "search_name": "ハゼ馳せる果てるまで",
+      "song_id": 1397619674,
+      "song_name": "ハゼ馳せる果てるまで",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "ずっと真夜中でいいのに。",
+        "local_album": "潜潜話",
+        "local_title": "ハゼ馳せる果てるまで"
       }
     },
     {
@@ -1335,17 +1853,45 @@
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\グラスとラムレーズン.flac",
-      "search_name": "グラスとラムレーズン",
-      "song_id": 1399788804,
-      "song_name": "グラスとラムレーズン",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\優しくLAST SMILE.flac",
+      "search_name": "優しくLAST SMILE",
+      "song_id": 1399788806,
+      "song_name": "優しくLAST SMILE",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
         "local_album": "潜潜話",
-        "local_title": "グラスとラムレーズン"
+        "local_title": "優しくLAST SMILE"
+      }
+    },
+    {
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\勘冴えて悔しいわ.flac",
+      "search_name": "勘冴えて悔しいわ",
+      "song_id": 1399789325,
+      "song_name": "勘冴えて悔しいわ",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "ずっと真夜中でいいのに。",
+        "local_album": "潜潜話",
+        "local_title": "勘冴えて悔しいわ"
+      }
+    },
+    {
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\居眠り遠征隊.flac",
+      "search_name": "居眠り遠征隊",
+      "song_id": 1399789326,
+      "song_name": "居眠り遠征隊",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "ずっと真夜中でいいのに。",
+        "local_album": "潜潜話",
+        "local_title": "居眠り遠征隊"
       }
     },
     {
@@ -1363,17 +1909,17 @@
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\優しくLAST SMILE.flac",
-      "search_name": "優しくLAST SMILE",
-      "song_id": 1399788806,
-      "song_name": "優しくLAST SMILE",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\眩しいDNAだけ.flac",
+      "search_name": "眩しいDNAだけ",
+      "song_id": 1399788803,
+      "song_name": "眩しいDNAだけ",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
         "local_album": "潜潜話",
-        "local_title": "優しくLAST SMILE"
+        "local_title": "眩しいDNAだけ"
       }
     },
     {
@@ -1391,31 +1937,45 @@
       }
     },
     {
-      "file": "E:\\music\\ずっと真夜中でいいのに。\\過眠\\過眠.flac",
-      "search_name": "過眠",
-      "song_id": 1814284112,
-      "song_name": "過眠",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\脳裏上のクラッカー.flac",
+      "search_name": "脳裏上のクラッカー",
+      "song_id": 1399788799,
+      "song_name": "脳裏上のクラッカー",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "ずっと真夜中でいいのに。",
-        "local_album": "過眠",
-        "local_title": "過眠"
+        "local_album": "潜潜話",
+        "local_title": "脳裏上のクラッカー"
       }
     },
     {
-      "file": "E:\\music\\アトラスサウンドチーム\\『ペルソナ5』オリジナル・サウンドトラック\\Life Will Change.flac",
-      "search_name": "Life Will Change",
-      "song_id": 454231736,
-      "song_name": "Life Will Change",
+      "file": "E:\\music\\ずっと真夜中でいいのに。\\潜潜話\\蹴っ飛ばした毛布.flac",
+      "search_name": "蹴っ飛ばした毛布",
+      "song_id": 1399789327,
+      "song_name": "蹴っ飛ばした毛布",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "ずっと真夜中でいいのに。",
+        "local_album": "潜潜話",
+        "local_title": "蹴っ飛ばした毛布"
+      }
+    },
+    {
+      "file": "E:\\music\\アトラスサウンドチーム\\『ペルソナ5』オリジナル・サウンドトラック\\Beneath the Mask.flac",
+      "search_name": "Beneath the Mask",
+      "song_id": 454224842,
+      "song_name": "Beneath the Mask",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "Lyn/アトラスサウンドチーム",
         "local_album": "『ペルソナ5』オリジナル・サウンドトラック",
-        "local_title": "Life Will Change"
+        "local_title": "Beneath the Mask"
       }
     },
     {
@@ -1447,31 +2007,17 @@
       }
     },
     {
-      "file": "E:\\music\\アトラスサウンドチーム\\『ペルソナ5』オリジナル・サウンドトラック\\Beneath the Mask.flac",
-      "search_name": "Beneath the Mask",
-      "song_id": 454231783,
-      "song_name": "Beneath the Mask -rain-",
+      "file": "E:\\music\\アトラスサウンドチーム\\『ペルソナ5』オリジナル・サウンドトラック\\Life Will Change.flac",
+      "search_name": "Life Will Change",
+      "song_id": 454231736,
+      "song_name": "Life Will Change",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "Lyn/アトラスサウンドチーム",
         "local_album": "『ペルソナ5』オリジナル・サウンドトラック",
-        "local_title": "Beneath the Mask"
-      }
-    },
-    {
-      "file": "E:\\music\\アトラスサウンドチーム\\『ペルソナ5』オリジナル・サウンドトラック\\The Whims of Fate.flac",
-      "search_name": "The Whims of Fate",
-      "song_id": 454231893,
-      "song_name": "The Whims of Fate",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "Lyn/アトラスサウンドチーム",
-        "local_album": "『ペルソナ5』オリジナル・サウンドトラック",
-        "local_title": "The Whims of Fate"
+        "local_title": "Life Will Change"
       }
     },
     {
@@ -1503,7 +2049,371 @@
       }
     },
     {
-      "file": "E:\\music\\張震嶽\\OK\\思念是一种病.flac",
+      "file": "E:\\music\\アトラスサウンドチーム\\『ペルソナ5』オリジナル・サウンドトラック\\The Whims of Fate.flac",
+      "search_name": "The Whims of Fate",
+      "song_id": 454231893,
+      "song_name": "The Whims of Fate",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "Lyn/アトラスサウンドチーム",
+        "local_album": "『ペルソナ5』オリジナル・サウンドトラック",
+        "local_title": "The Whims of Fate"
+      }
+    },
+    {
+      "file": "E:\\music\\哈基米\\彩云曼波(哈基米)\\往事只能哈基(哈基米).flac",
+      "search_name": "往事只能哈基(哈基米)",
+      "song_id": 3324541601,
+      "song_name": "往事只能哈基",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "哈基米",
+        "local_album": "彩云曼波(哈基米)",
+        "local_title": "往事只能哈基(哈基米)"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Laugh\\Actor.flac",
+      "search_name": "Actor",
+      "song_id": 3324614065,
+      "song_name": "Actor",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Laugh",
+        "local_title": "Actor"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Laugh\\Cafe Latte.flac",
+      "search_name": "Cafe Latte",
+      "song_id": 3324613769,
+      "song_name": "Cafe Latte",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Laugh",
+        "local_title": "Cafe Latte"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Laugh\\DREAMER.flac",
+      "search_name": "DREAMER",
+      "song_id": 2147794973,
+      "song_name": "Dreamer",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Laugh",
+        "local_title": "DREAMER"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Laugh\\Latata.flac",
+      "search_name": "Latata",
+      "song_id": 3324613767,
+      "song_name": "Latata",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Laugh",
+        "local_title": "Latata"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Laugh\\P.S.flac",
+      "search_name": "P.S.",
+      "song_id": 3324614070,
+      "song_name": "P.S.",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Laugh",
+        "local_title": "P.S."
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Laugh\\Sign.flac",
+      "search_name": "Sign",
+      "song_id": 440101136,
+      "song_name": "Sign",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Laugh",
+        "local_title": "Sign"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Laugh\\Voyage.flac",
+      "search_name": "Voyage",
+      "song_id": 2162281325,
+      "song_name": "Voyage",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Laugh",
+        "local_title": "Voyage"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Laugh\\With.flac",
+      "search_name": "With",
+      "song_id": 3324614068,
+      "song_name": "With",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Laugh",
+        "local_title": "With"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Laugh\\タイムマシン.flac",
+      "search_name": "タイムマシン",
+      "song_id": 3324614071,
+      "song_name": "タイムマシン",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Laugh",
+        "local_title": "タイムマシン"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Laugh\\ハミング.flac",
+      "search_name": "ハミング",
+      "song_id": 3324613771,
+      "song_name": "ハミング",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Laugh",
+        "local_title": "ハミング"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Laugh\\恋風.flac",
+      "search_name": "恋風",
+      "song_id": 3324614066,
+      "song_name": "恋風",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Laugh",
+        "local_title": "恋風"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Laugh\\百花繚乱.flac",
+      "search_name": "百花繚乱",
+      "song_id": 3324613768,
+      "song_name": "百花繚乱",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Laugh",
+        "local_title": "百花繚乱"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Laugh\\青春謳歌 (feat.ano).flac",
+      "search_name": "青春謳歌 (feat.ano)",
+      "song_id": 2136839649,
+      "song_name": "青春謳歌 (feat.ano)",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら/ano",
+        "local_album": "Laugh",
+        "local_title": "青春謳歌 (feat.ano)"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Sketch\\Answer.flac",
+      "search_name": "Answer",
+      "song_id": 2023293479,
+      "song_name": "Answer",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Sketch",
+        "local_title": "Answer"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Sketch\\JUMP.flac",
+      "search_name": "JUMP",
+      "song_id": 2023293482,
+      "song_name": "JUMP",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Sketch",
+        "local_title": "JUMP"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Sketch\\Midnight Talk.flac",
+      "search_name": "Midnight Talk",
+      "song_id": 2023294251,
+      "song_name": "Midnight Talk",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Sketch",
+        "local_title": "Midnight Talk"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Sketch\\サークル.flac",
+      "search_name": "サークル",
+      "song_id": 2023293480,
+      "song_name": "サークル",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Sketch",
+        "local_title": "サークル"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Sketch\\スパークル.flac",
+      "search_name": "スパークル",
+      "song_id": 2023294250,
+      "song_name": "スパークル",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Sketch",
+        "local_title": "スパークル"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Sketch\\ヒカリ.flac",
+      "search_name": "ヒカリ",
+      "song_id": 2023294254,
+      "song_name": "ヒカリ",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Sketch",
+        "local_title": "ヒカリ"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Sketch\\レンズ.flac",
+      "search_name": "レンズ",
+      "song_id": 2023294252,
+      "song_name": "レンズ",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Sketch",
+        "local_title": "レンズ"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Sketch\\ロマンスの約束.flac",
+      "search_name": "ロマンスの約束",
+      "song_id": 2023294256,
+      "song_name": "ロマンスの約束",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Sketch",
+        "local_title": "ロマンスの約束"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Sketch\\吉祥寺.flac",
+      "search_name": "吉祥寺",
+      "song_id": 2023294253,
+      "song_name": "吉祥寺",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Sketch",
+        "local_title": "吉祥寺"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Sketch\\宝石.flac",
+      "search_name": "宝石",
+      "song_id": 2023294255,
+      "song_name": "宝石 feat. 幾田りら",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Sketch",
+        "local_title": "宝石"
+      }
+    },
+    {
+      "file": "E:\\music\\幾田りら\\Sketch\\蒲公英.flac",
+      "search_name": "蒲公英",
+      "song_id": 2023293481,
+      "song_name": "蒲公英",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "幾田りら",
+        "local_album": "Sketch",
+        "local_title": "蒲公英"
+      }
+    },
+    {
+      "file": "E:\\music\\张震岳\\OK\\01 思念是一种病.flac",
       "search_name": "思念是一种病",
       "song_id": 185700,
       "song_name": "思念是一种病",
@@ -1587,20 +2497,6 @@
       }
     },
     {
-      "file": "E:\\music\\王力宏\\改变自己\\改变自己.flac",
-      "search_name": "改变自己",
-      "song_id": 25642111,
-      "song_name": "改变自己",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "王力宏",
-        "local_album": "改变自己",
-        "local_title": "改变自己"
-      }
-    },
-    {
       "file": "E:\\music\\王力宏\\改变自己\\我们的歌.flac",
       "search_name": "我们的歌",
       "song_id": 25642952,
@@ -1615,9 +2511,23 @@
       }
     },
     {
+      "file": "E:\\music\\王力宏\\改变自己\\改变自己.flac",
+      "search_name": "改变自己",
+      "song_id": 25642111,
+      "song_name": "改变自己",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "王力宏",
+        "local_album": "改变自己",
+        "local_title": "改变自己"
+      }
+    },
+    {
       "file": "E:\\music\\王力宏\\火力全开\\火力全开.flac",
       "search_name": "火力全开",
-      "song_id": 25642119,
+      "song_id": 25638999,
       "song_name": "火力全开",
       "artist": "",
       "confidence": "high",
@@ -1626,20 +2536,6 @@
         "local_artist": "王力宏",
         "local_album": "火力全开",
         "local_title": "火力全开"
-      }
-    },
-    {
-      "file": "E:\\music\\王力宏\\盖世英雄\\花田错.flac",
-      "search_name": "花田错",
-      "song_id": 25986099,
-      "song_name": "花田错",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "王力宏",
-        "local_album": "盖世英雄",
-        "local_title": "花田错"
       }
     },
     {
@@ -1657,59 +2553,31 @@
       }
     },
     {
-      "file": "E:\\music\\陶喆\\I'm OK\\找自己.flac",
-      "search_name": "找自己",
-      "song_id": 150617,
-      "song_name": "找自己",
+      "file": "E:\\music\\王力宏\\盖世英雄\\花田错.flac",
+      "search_name": "花田错",
+      "song_id": 25986099,
+      "song_name": "花田错",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "I'm OK",
-        "local_title": "找自己"
+        "local_artist": "王力宏",
+        "local_album": "盖世英雄",
+        "local_title": "花田错"
       }
     },
     {
-      "file": "E:\\music\\陶喆\\I'm OK\\小镇姑娘.flac",
-      "search_name": "小镇姑娘",
-      "song_id": 150619,
-      "song_name": "小镇姑娘",
+      "file": "E:\\music\\陶喆\\I'm OK\\Angeline.flac",
+      "search_name": "Angeline",
+      "song_id": 150635,
+      "song_name": "Angeline",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "陶喆",
         "local_album": "I'm OK",
-        "local_title": "小镇姑娘"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\I'm OK\\夜来香.flac",
-      "search_name": "夜来香",
-      "song_id": 150621,
-      "song_name": "夜来香",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "I'm OK",
-        "local_title": "夜来香"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\I'm OK\\普通朋友.flac",
-      "search_name": "普通朋友",
-      "song_id": 150623,
-      "song_name": "普通朋友",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "I'm OK",
-        "local_title": "普通朋友"
+        "local_title": "Angeline"
       }
     },
     {
@@ -1741,6 +2609,90 @@
       }
     },
     {
+      "file": "E:\\music\\陶喆\\I'm OK\\夜来香.flac",
+      "search_name": "夜来香",
+      "song_id": 150621,
+      "song_name": "夜来香",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "I'm OK",
+        "local_title": "夜来香"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\I'm OK\\天天.flac",
+      "search_name": "天天",
+      "song_id": 150633,
+      "song_name": "天天",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "I'm OK",
+        "local_title": "天天"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\I'm OK\\小镇姑娘.flac",
+      "search_name": "小镇姑娘",
+      "song_id": 150619,
+      "song_name": "小镇姑娘",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "I'm OK",
+        "local_title": "小镇姑娘"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\I'm OK\\找自己.flac",
+      "search_name": "找自己",
+      "song_id": 150617,
+      "song_name": "找自己",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "I'm OK",
+        "local_title": "找自己"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\I'm OK\\普通朋友.flac",
+      "search_name": "普通朋友",
+      "song_id": 150623,
+      "song_name": "普通朋友",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "I'm OK",
+        "local_title": "普通朋友"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\I'm OK\\说走就走.flac",
+      "search_name": "说走就走",
+      "song_id": 150627,
+      "song_name": "说走就走",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "I'm OK",
+        "local_title": "说走就走"
+      }
+    },
+    {
       "file": "E:\\music\\陶喆\\I'm OK\\马戏团.flac",
       "search_name": "马戏团",
       "song_id": 150631,
@@ -1752,20 +2704,6 @@
         "local_artist": "陶喆",
         "local_album": "I'm OK",
         "local_title": "马戏团"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\I'm OK\\Angeline.flac",
-      "search_name": "Angeline",
-      "song_id": 150600,
-      "song_name": "Angeline (Live)",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "I'm OK",
-        "local_title": "Angeline"
       }
     },
     {
@@ -1797,6 +2735,20 @@
       }
     },
     {
+      "file": "E:\\music\\陶喆\\太平盛世\\2Night藏爱.flac",
+      "search_name": "2Night藏爱",
+      "song_id": 150436,
+      "song_name": "2Night藏爱",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "太平盛世",
+        "local_title": "2Night藏爱"
+      }
+    },
+    {
       "file": "E:\\music\\陶喆\\太平盛世\\Catherine.flac",
       "search_name": "Catherine",
       "song_id": 150429,
@@ -1808,76 +2760,6 @@
         "local_artist": "陶喆",
         "local_album": "太平盛世",
         "local_title": "Catherine"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\太平盛世\\就是爱你.flac",
-      "search_name": "就是爱你",
-      "song_id": 150430,
-      "song_name": "就是爱你",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "太平盛世",
-        "local_title": "就是爱你"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\太平盛世\\孙子兵法.flac",
-      "search_name": "孙子兵法",
-      "song_id": 150431,
-      "song_name": "孙子兵法",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "太平盛世",
-        "local_title": "孙子兵法"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\太平盛世\\爱我还是他.flac",
-      "search_name": "爱我还是他",
-      "song_id": 150432,
-      "song_name": "爱我还是他",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "太平盛世",
-        "local_title": "爱我还是他"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\太平盛世\\Susan说.flac",
-      "search_name": "Susan说",
-      "song_id": 150433,
-      "song_name": "Susan 说",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "太平盛世",
-        "local_title": "Susan说"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\太平盛世\\无缘.flac",
-      "search_name": "无缘",
-      "song_id": 150434,
-      "song_name": "无缘",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "太平盛世",
-        "local_title": "无缘"
       }
     },
     {
@@ -1895,31 +2777,17 @@
       }
     },
     {
-      "file": "E:\\music\\陶喆\\太平盛世\\2Night藏爱.flac",
-      "search_name": "2Night藏爱",
-      "song_id": 150436,
-      "song_name": "2Night藏爱",
+      "file": "E:\\music\\陶喆\\太平盛世\\Susan说.flac",
+      "search_name": "Susan说",
+      "song_id": 150433,
+      "song_name": "Susan 说",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "陶喆",
         "local_album": "太平盛世",
-        "local_title": "2Night藏爱"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\太平盛世\\鬼.flac",
-      "search_name": "鬼",
-      "song_id": 150440,
-      "song_name": "鬼(Music鉴赏版)",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "太平盛世",
-        "local_title": "鬼"
+        "local_title": "Susan说"
       }
     },
     {
@@ -1934,6 +2802,62 @@
         "local_artist": "陶喆",
         "local_album": "太平盛世",
         "local_title": "她的歌"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\太平盛世\\孙子兵法.flac",
+      "search_name": "孙子兵法",
+      "song_id": 150431,
+      "song_name": "孙子兵法",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "太平盛世",
+        "local_title": "孙子兵法"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\太平盛世\\就是爱你.flac",
+      "search_name": "就是爱你",
+      "song_id": 150430,
+      "song_name": "就是爱你",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "太平盛世",
+        "local_title": "就是爱你"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\太平盛世\\无缘.flac",
+      "search_name": "无缘",
+      "song_id": 150434,
+      "song_name": "无缘",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "太平盛世",
+        "local_title": "无缘"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\太平盛世\\爱我还是他.flac",
+      "search_name": "爱我还是他",
+      "song_id": 150432,
+      "song_name": "爱我还是他",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "太平盛世",
+        "local_title": "爱我还是他"
       }
     },
     {
@@ -1965,6 +2889,20 @@
       }
     },
     {
+      "file": "E:\\music\\陶喆\\太平盛世\\鬼.flac",
+      "search_name": "鬼",
+      "song_id": 150428,
+      "song_name": "鬼",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "太平盛世",
+        "local_title": "鬼"
+      }
+    },
+    {
       "file": "E:\\music\\陶喆\\太美丽\\不爱.flac",
       "search_name": "不爱",
       "song_id": 150424,
@@ -1976,104 +2914,6 @@
         "local_artist": "陶喆",
         "local_album": "太美丽",
         "local_title": "不爱"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\陶喆同名专辑\\飞机场的10_30.flac",
-      "search_name": "飞机场的10:30",
-      "song_id": 150651,
-      "song_name": "飞机场的10:30",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "陶喆同名专辑",
-        "local_title": "飞机场的10:30"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\陶喆同名专辑\\爱，很简单.flac",
-      "search_name": "爱，很简单",
-      "song_id": 150654,
-      "song_name": "爱，很简单",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "陶喆同名专辑",
-        "local_title": "爱，很简单"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\陶喆同名专辑\\沙滩.flac",
-      "search_name": "沙滩",
-      "song_id": 150656,
-      "song_name": "沙滩",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "陶喆同名专辑",
-        "local_title": "沙滩"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\陶喆同名专辑\\十七岁.flac",
-      "search_name": "十七岁",
-      "song_id": 150658,
-      "song_name": "十七岁",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "陶喆同名专辑",
-        "local_title": "十七岁"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\陶喆同名专辑\\望春风.flac",
-      "search_name": "望春风",
-      "song_id": 150660,
-      "song_name": "望春风",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "陶喆同名专辑",
-        "local_title": "望春风"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\陶喆同名专辑\\是是非非.flac",
-      "search_name": "是是非非",
-      "song_id": 150665,
-      "song_name": "是是非非",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "陶喆同名专辑",
-        "local_title": "是是非非"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\陶喆同名专辑\\流沙.flac",
-      "search_name": "流沙",
-      "song_id": 150667,
-      "song_name": "流沙",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "陶喆同名专辑",
-        "local_title": "流沙"
       }
     },
     {
@@ -2091,6 +2931,34 @@
       }
     },
     {
+      "file": "E:\\music\\陶喆\\陶喆同名专辑\\再见以前先说再见.flac",
+      "search_name": "再见以前先说再见",
+      "song_id": 150674,
+      "song_name": "再见以前先说再见",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "陶喆同名专辑",
+        "local_title": "再见以前先说再见"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\陶喆同名专辑\\十七岁.flac",
+      "search_name": "十七岁",
+      "song_id": 150658,
+      "song_name": "十七岁",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "陶喆同名专辑",
+        "local_title": "十七岁"
+      }
+    },
+    {
       "file": "E:\\music\\陶喆\\陶喆同名专辑\\心乱飞.flac",
       "search_name": "心乱飞",
       "song_id": 150671,
@@ -2105,17 +2973,73 @@
       }
     },
     {
-      "file": "E:\\music\\陶喆\\陶喆同名专辑\\再见以前先说再见.flac",
-      "search_name": "再见以前先说再见",
-      "song_id": 150674,
-      "song_name": "再见以前先说再见",
+      "file": "E:\\music\\陶喆\\陶喆同名专辑\\是是非非.flac",
+      "search_name": "是是非非",
+      "song_id": 150665,
+      "song_name": "是是非非",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "陶喆",
         "local_album": "陶喆同名专辑",
-        "local_title": "再见以前先说再见"
+        "local_title": "是是非非"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\陶喆同名专辑\\望春风.flac",
+      "search_name": "望春风",
+      "song_id": 150660,
+      "song_name": "望春风",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "陶喆同名专辑",
+        "local_title": "望春风"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\陶喆同名专辑\\沙滩.flac",
+      "search_name": "沙滩",
+      "song_id": 150656,
+      "song_name": "沙滩",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "陶喆同名专辑",
+        "local_title": "沙滩"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\陶喆同名专辑\\流沙.flac",
+      "search_name": "流沙",
+      "song_id": 150667,
+      "song_name": "流沙",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "陶喆同名专辑",
+        "local_title": "流沙"
+      }
+    },
+    {
+      "file": "E:\\music\\陶喆\\陶喆同名专辑\\爱，很简单.flac",
+      "search_name": "爱，很简单",
+      "song_id": 150654,
+      "song_name": "爱，很简单",
+      "artist": "",
+      "confidence": "high",
+      "verify_reason": "歌名匹配(100%)",
+      "metadata": {
+        "local_artist": "陶喆",
+        "local_album": "陶喆同名专辑",
+        "local_title": "爱，很简单"
       }
     },
     {
@@ -2133,31 +3057,17 @@
       }
     },
     {
-      "file": "E:\\music\\陶喆\\黑色柳丁\\黑色柳丁.flac",
-      "search_name": "黑色柳丁",
-      "song_id": 150552,
-      "song_name": "黑色柳丁",
+      "file": "E:\\music\\陶喆\\陶喆同名专辑\\飞机场的10_30.flac",
+      "search_name": "飞机场的10:30",
+      "song_id": 150651,
+      "song_name": "飞机场的10:30",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "陶喆",
-        "local_album": "黑色柳丁",
-        "local_title": "黑色柳丁"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\黑色柳丁\\Dear God.flac",
-      "search_name": "Dear God",
-      "song_id": 150556,
-      "song_name": "Dear God",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "黑色柳丁",
-        "local_title": "Dear God"
+        "local_album": "陶喆同名专辑",
+        "local_title": "飞机场的10:30"
       }
     },
     {
@@ -2175,115 +3085,17 @@
       }
     },
     {
-      "file": "E:\\music\\陶喆\\黑色柳丁\\讨厌红楼梦.flac",
-      "search_name": "讨厌红楼梦",
-      "song_id": 150560,
-      "song_name": "讨厌红楼梦",
+      "file": "E:\\music\\陶喆\\黑色柳丁\\Dear God.flac",
+      "search_name": "Dear God",
+      "song_id": 150556,
+      "song_name": "Dear God",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
         "local_artist": "陶喆",
         "local_album": "黑色柳丁",
-        "local_title": "讨厌红楼梦"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\黑色柳丁\\蝴蝶.flac",
-      "search_name": "蝴蝶",
-      "song_id": 150561,
-      "song_name": "蝴蝶",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "黑色柳丁",
-        "local_title": "蝴蝶"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\黑色柳丁\\宫保鸡丁.flac",
-      "search_name": "宫保鸡丁",
-      "song_id": 150562,
-      "song_name": "宫保鸡丁",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "黑色柳丁",
-        "local_title": "宫保鸡丁"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\黑色柳丁\\Melody.flac",
-      "search_name": "Melody",
-      "song_id": 150563,
-      "song_name": "Melody",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "黑色柳丁",
-        "local_title": "Melody"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\黑色柳丁\\月亮代表谁的心.flac",
-      "search_name": "月亮代表谁的心",
-      "song_id": 150564,
-      "song_name": "月亮代表谁的心",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "黑色柳丁",
-        "local_title": "月亮代表谁的心"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\黑色柳丁\\二十二.flac",
-      "search_name": "二十二",
-      "song_id": 150565,
-      "song_name": "二十二",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "黑色柳丁",
-        "local_title": "二十二"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\黑色柳丁\\My Anata.flac",
-      "search_name": "My Anata",
-      "song_id": 150566,
-      "song_name": "My Anata",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "黑色柳丁",
-        "local_title": "My Anata"
-      }
-    },
-    {
-      "file": "E:\\music\\陶喆\\黑色柳丁\\摇篮曲.flac",
-      "search_name": "摇篮曲",
-      "song_id": 150568,
-      "song_name": "摇篮曲",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "陶喆",
-        "local_album": "黑色柳丁",
-        "local_title": "摇篮曲"
+        "local_title": "Dear God"
       }
     },
     {
@@ -2301,157 +3113,129 @@
       }
     },
     {
-      "file": "E:\\music\\飞儿乐团\\爱‧歌姬\\第十行星.flac",
-      "search_name": "第十行星",
-      "song_id": 354333,
-      "song_name": "第十行星",
+      "file": "E:\\music\\陶喆\\黑色柳丁\\Melody.flac",
+      "search_name": "Melody",
+      "song_id": 150563,
+      "song_name": "Melody",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "爱‧歌姬",
-        "local_title": "第十行星"
+        "local_artist": "陶喆",
+        "local_album": "黑色柳丁",
+        "local_title": "Melody"
       }
     },
     {
-      "file": "E:\\music\\飞儿乐团\\爱‧歌姬\\需要你的爱.flac",
-      "search_name": "需要你的爱",
-      "song_id": 354337,
-      "song_name": "需要你的爱",
+      "file": "E:\\music\\陶喆\\黑色柳丁\\My Anata.flac",
+      "search_name": "My Anata",
+      "song_id": 150566,
+      "song_name": "My Anata",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "爱‧歌姬",
-        "local_title": "需要你的爱"
+        "local_artist": "陶喆",
+        "local_album": "黑色柳丁",
+        "local_title": "My Anata"
       }
     },
     {
-      "file": "E:\\music\\飞儿乐团\\爱‧歌姬\\三个心愿.flac",
-      "search_name": "三个心愿",
-      "song_id": 354341,
-      "song_name": "三个心愿",
+      "file": "E:\\music\\陶喆\\黑色柳丁\\二十二.flac",
+      "search_name": "二十二",
+      "song_id": 150565,
+      "song_name": "二十二",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "爱‧歌姬",
-        "local_title": "三个心愿"
+        "local_artist": "陶喆",
+        "local_album": "黑色柳丁",
+        "local_title": "二十二"
       }
     },
     {
-      "file": "E:\\music\\飞儿乐团\\爱‧歌姬\\Change.flac",
-      "search_name": "Change",
-      "song_id": 1477386754,
-      "song_name": "I Can't Handle Change",
+      "file": "E:\\music\\陶喆\\黑色柳丁\\宫保鸡丁.flac",
+      "search_name": "宫保鸡丁",
+      "song_id": 150562,
+      "song_name": "宫保鸡丁",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "爱‧歌姬",
-        "local_title": "Change"
+        "local_artist": "陶喆",
+        "local_album": "黑色柳丁",
+        "local_title": "宫保鸡丁"
       }
     },
     {
-      "file": "E:\\music\\飞儿乐团\\爱‧歌姬\\真爱地图.flac",
-      "search_name": "真爱地图",
-      "song_id": 354349,
-      "song_name": "真爱地图",
+      "file": "E:\\music\\陶喆\\黑色柳丁\\摇篮曲.flac",
+      "search_name": "摇篮曲",
+      "song_id": 150568,
+      "song_name": "摇篮曲",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "爱‧歌姬",
-        "local_title": "真爱地图"
+        "local_artist": "陶喆",
+        "local_album": "黑色柳丁",
+        "local_title": "摇篮曲"
       }
     },
     {
-      "file": "E:\\music\\飞儿乐团\\爱‧歌姬\\月牙湾.flac",
-      "search_name": "月牙湾",
-      "song_id": 354352,
-      "song_name": "月牙湾",
+      "file": "E:\\music\\陶喆\\黑色柳丁\\月亮代表谁的心.flac",
+      "search_name": "月亮代表谁的心",
+      "song_id": 150564,
+      "song_name": "月亮代表谁的心",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "爱‧歌姬",
-        "local_title": "月牙湾"
+        "local_artist": "陶喆",
+        "local_album": "黑色柳丁",
+        "local_title": "月亮代表谁的心"
       }
     },
     {
-      "file": "E:\\music\\飞儿乐团\\爱‧歌姬\\Forever Green.flac",
-      "search_name": "Forever Green",
-      "song_id": 3333979830,
-      "song_name": "Forever Green & Gold",
+      "file": "E:\\music\\陶喆\\黑色柳丁\\蝴蝶.flac",
+      "search_name": "蝴蝶",
+      "song_id": 150561,
+      "song_name": "蝴蝶",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "爱‧歌姬",
-        "local_title": "Forever Green"
+        "local_artist": "陶喆",
+        "local_album": "黑色柳丁",
+        "local_title": "蝴蝶"
       }
     },
     {
-      "file": "E:\\music\\飞儿乐团\\爱‧歌姬\\Blue Doors Ahead.flac",
-      "search_name": "Blue Doors Ahead",
-      "song_id": 354360,
-      "song_name": "Blue Doors Ahead",
+      "file": "E:\\music\\陶喆\\黑色柳丁\\讨厌红楼梦.flac",
+      "search_name": "讨厌红楼梦",
+      "song_id": 150560,
+      "song_name": "讨厌红楼梦",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "爱‧歌姬",
-        "local_title": "Blue Doors Ahead"
+        "local_artist": "陶喆",
+        "local_album": "黑色柳丁",
+        "local_title": "讨厌红楼梦"
       }
     },
     {
-      "file": "E:\\music\\飞儿乐团\\爱‧歌姬\\爱过.flac",
-      "search_name": "爱过",
-      "song_id": 354364,
-      "song_name": "爱过",
+      "file": "E:\\music\\陶喆\\黑色柳丁\\黑色柳丁.flac",
+      "search_name": "黑色柳丁",
+      "song_id": 150552,
+      "song_name": "黑色柳丁",
       "artist": "",
       "confidence": "high",
       "verify_reason": "歌名匹配(100%)",
       "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "爱‧歌姬",
-        "local_title": "爱过"
-      }
-    },
-    {
-      "file": "E:\\music\\飞儿乐团\\爱‧歌姬\\彩色拼图.flac",
-      "search_name": "彩色拼图",
-      "song_id": 354368,
-      "song_name": "彩色拼图",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "F.I.R.飞儿乐团",
-        "local_album": "爱‧歌姬",
-        "local_title": "彩色拼图"
-      }
-    },
-    {
-      "file": "E:\\music\\飞儿乐团\\爱‧歌姬\\荼靡时代.flac",
-      "search_name": "荼靡时代",
-      "song_id": 354374,
-      "song_name": "荼靡时代",
-      "artist": "",
-      "confidence": "high",
-      "verify_reason": "歌名匹配(100%)",
-      "metadata": {
-        "local_artist": "飞儿乐团",
-        "local_album": "爱‧歌姬",
-        "local_title": "荼靡时代"
+        "local_artist": "陶喆",
+        "local_album": "黑色柳丁",
+        "local_title": "黑色柳丁"
       }
     },
     {
@@ -2470,6 +3254,11 @@
     }
   ],
   "skipped": [
+    [
+      "E:\\music\\Unreachable.flac",
+      "Unreachable",
+      ""
+    ],
     [
       "E:\\music\\アトラスサウンドチーム\\『ペルソナ5』オリジナル・サウンドトラック\\3-17 アトラスサウンドチーム - 方舟.flac",
       "方舟",
